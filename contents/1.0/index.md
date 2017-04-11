@@ -1,0 +1,32 @@
+_<!-- ======================================================================
+--- Search engine
+title:          Home Page
+keywords:       home page
+description:    Home page of md-site-engine documentation site.
+--- Menu system
+order:          
+text:           
+hidden:         false
+umbel:          false
+--- Page properties
+id:             
+document:       
+layout:         
+---$-left:         
+======================================================================= -->_
+
+# md-site-engine
+
+Description [link](/) description 
+
+```$javascript
+function getTitle( ctx ) {
+  return  merge( ctx.translate( 'title' ), ctx.metadata.title, ' ♦ ' );
+}
+
+function merge( first, second, separator ) {
+  var merged = first || '';
+  merged += second ? separator + second : '';
+  return merged;
+}
+```
