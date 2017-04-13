@@ -1,29 +1,20 @@
 <!-- ======================================================================
 --- Search engine
-title:          About
-keywords:       about this site
-description:    About this site.
+title:          Layout files
+keywords:       layout file
+description:    Layout files in md-site-engine.
 --- Menu system
 order:          100
-text:           About
+text:           Layout files
 hidden:         false
 umbel:          false
 --- Page properties
 id:             
 document:       
 layout:         layout-2-left
-$-left:         left
+$-left:         toc
 ======================================================================= -->
 
-# About
+# Layout files
 
-<div class="text-center">
-![About this site](/images/markdown-mark.svg.png)
-</div>
-<div class="text-center">
-![About this site](/images/mdse.png)
-</div>
-
-<p>&nbsp;</p>
-
-Description
+Description...
