@@ -11,15 +11,12 @@ umbel:          false
 --- Page properties
 id:             
 document:       
-layout:         layout-2-left
-$-left:         left
+layout:         
+---$-left:         
 ======================================================================= -->
 
 # About
 
-<div class="text-center">
-![About this site](/images/markdown-mark.svg.png)
-</div>
 <div class="text-center">
 ![About this site](/images/mdse.png)
 </div>

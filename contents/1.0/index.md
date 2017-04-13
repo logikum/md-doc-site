@@ -15,6 +15,8 @@ layout:
 ---$-left:         
 ======================================================================= -->_
 
+<div class="pull-right"><img src="/images/mdse-w200.png"></div>
+
 # md-site-engine
 
 Description [link](/) description 
