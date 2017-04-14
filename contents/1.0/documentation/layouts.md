@@ -12,7 +12,12 @@ umbel:          false
 id:             
 document:       
 layout:         layout-2-left
-$-left:         toc
+$-left:         #side-menu
+--- Side menu
+side-menu-root:     /documentation
+side-menu-header:   Documentation
+side-menu-top:      Introduction
+side-menu-depth:    1
 ======================================================================= -->
 
 # Layout files

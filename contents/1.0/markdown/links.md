@@ -4,15 +4,20 @@ title:          Markdown links
 keywords:       markdown, links
 description:    Markdown links in md-site-engine.
 --- Menu system
-order:          
-text:           
+order:          40
+text:           Links
 hidden:         false
 umbel:          false
 --- Page properties
 id:             
 document:       
 layout:         layout-2-left
-$-left:         md-help
+$-left:         #side-menu
+--- Side menu
+side-menu-root:     /markdown
+side-menu-header:   Markdown help
+side-menu-top:      
+side-menu-depth:    1
 ======================================================================= -->
 
 # Links

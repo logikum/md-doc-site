@@ -4,18 +4,23 @@ title:          Markdown line breaks
 keywords:       markdown, line, break
 description:    Markdown line breaks in md-site-engine.
 --- Menu system
-order:          
-text:           
+order:          110
+text:           Line breaks
 hidden:         false
 umbel:          false
 --- Page properties
 id:             
 document:       
 layout:         layout-2-left
-$-left:         md-help
+$-left:         #side-menu
+--- Side menu
+side-menu-root:     /markdown
+side-menu-header:   Markdown help
+side-menu-top:      
+side-menu-depth:    1
 ======================================================================= -->
 
-# Line Breaks
+# Line breaks
 
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit <Enter> once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.
 

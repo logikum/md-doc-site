@@ -12,9 +12,14 @@ umbel:          true
 id:             
 document:       
 layout:         layout-2-left
-$-left:         md-help
+$-left:         #side-menu
+--- Side menu
+side-menu-root:     /markdown
+side-menu-header:   Markdown help
+side-menu-top:      
+side-menu-depth:    1
 ======================================================================= -->
 
 # Markdown help
 
-Description...
+{{ =markdown }}

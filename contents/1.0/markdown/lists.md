@@ -4,15 +4,20 @@ title:          Markdown lists
 keywords:       markdown, lists
 description:    Markdown lists in md-site-engine.
 --- Menu system
-order:          
-text:           
+order:          30
+text:           Lists
 hidden:         false
 umbel:          false
 --- Page properties
 id:             
 document:       
 layout:         layout-2-left
-$-left:         md-help
+$-left:         #side-menu
+--- Side menu
+side-menu-root:     /markdown
+side-menu-header:   Markdown help
+side-menu-top:      
+side-menu-depth:    1
 ======================================================================= -->
 
 # Lists

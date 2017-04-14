@@ -4,15 +4,20 @@ title:          Markdown emphasis
 keywords:       markdown, emphasis
 description:    Markdown emphasis in md-site-engine.
 --- Menu system
-order:          
-text:           
+order:          20
+text:           Emphasis
 hidden:         false
 umbel:          false
 --- Page properties
 id:             
 document:       
 layout:         layout-2-left
-$-left:         md-help
+$-left:         #side-menu
+--- Side menu
+side-menu-root:     /markdown
+side-menu-header:   Markdown help
+side-menu-top:      
+side-menu-depth:    1
 ======================================================================= -->
 
 # Emphasis
