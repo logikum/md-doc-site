@@ -4,7 +4,7 @@ title:          Controls
 keywords:       controls
 description:    Controls in md-site-engine.
 --- Menu system
-order:          140
+order:          40
 text:           Controls
 hidden:         false
 umbel:          false
@@ -17,7 +17,7 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
 # Controls

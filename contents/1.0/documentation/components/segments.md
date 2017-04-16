@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Content metadata
-keywords:       Content metadata
-description:    Content metadata in md-site-engine.
+title:          Segment files
+keywords:       segment file
+description:    Segment files in md-site-engine.
 --- Menu system
-order:          60
-text:           Content metadata
+order:          30
+text:           Segment files
 hidden:         false
 umbel:          false
 --- Page properties
@@ -17,9 +17,9 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
-# Content metadata
+# Segment files
 
 Description...

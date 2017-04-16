@@ -1,1 +1,3 @@
-[~]: /
+[~]: https://github.com
+[marked]: ~/chjj/marked
+[highlight.js]: ~/isagalaev/highlight.js

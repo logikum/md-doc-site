@@ -4,7 +4,7 @@ title:          Application configuration
 keywords:       application, configuration
 description:    Default application configuration in md-site-engine.
 --- Menu system
-order:          160
+order:          60
 text:           Application configuration
 hidden:         false
 umbel:          false
@@ -17,7 +17,7 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
 # Application configuration

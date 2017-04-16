@@ -22,9 +22,10 @@ side-menu-depth:    1
 
 # Tables
 
-Tables aren't part of the core Markdown spec, but they are part of GFM and
-Markdown Here supports them. They are an easy way of adding tables to your email --
-a task that would otherwise require copy-pasting from another application.
+Tables aren't part of the core markdown specification, but they are part
+of GFM and [marked] supports them. They are an easy way of adding tables
+to your email -- a task that would otherwise require copy-pasting from
+another application.
 
 ```
 Colons can be used to align columns.

@@ -4,7 +4,7 @@ title:          Menu system
 keywords:       menu
 description:    Menu system in md-site-engine.
 --- Menu system
-order:          70
+order:          50
 text:           Menu system
 hidden:         false
 umbel:          false
@@ -17,7 +17,7 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
 # Menu system

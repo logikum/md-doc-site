@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Custom renderer
-keywords:       custom, markdown, renderer
-description:    Custom markdown renderer in md-site-engine.
+title:          Reference files
+keywords:       reference file
+description:    Reference files in md-site-engine.
 --- Menu system
-order:          50
-text:           Custom renderer
+order:          40
+text:           Reference files
 hidden:         false
 umbel:          false
 --- Page properties
@@ -17,9 +17,9 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
-# Custom markdown renderer
+# Reference files
 
 Description...

@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Locale files
-keywords:       locale file
-description:    Locale files in md-site-engine.
+title:          Document files
+keywords:       document file
+description:    Document files in md-site-engine.
 --- Menu system
-order:          130
-text:           Locale files
+order:          10
+text:           Document files
 hidden:         false
 umbel:          false
 --- Page properties
@@ -17,9 +17,9 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
-# Locale files
+# Document files
 
 Description...

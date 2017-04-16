@@ -53,6 +53,37 @@ ul.side-menu li {
 ul.side-menu li.active {
     background-color: #fff;
 }
+ul.side-menu ul li {
+    padding-left: 20px;
+}
+ul.side-menu ul ul li {
+    padding-left: 35px;
+}
+blockquote {
+    font-size: 1em;
+    font-style: italic;
+    border-left: solid 4px #bfaf80;
+    background-color: #ffffe0;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #bc6954;
+}
+tr:nth-child(even) {
+    background-color: #ffffe0
+}
+th {
+    background-color: #f2eeb3
+}
+th, td {
+    padding: 3px 10px;
+}
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
 
 .navbar-default {
     background-color: #59323c;

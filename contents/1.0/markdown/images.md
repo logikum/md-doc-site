@@ -26,21 +26,21 @@ side-menu-depth:    1
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Azrael cat](/images/azrael.png "Azrael")
 
 Reference-style: 
-![alt text][logo]
+![vicious Gargamel][gargamel]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[gargamel]: /images/gargamel.png "Gargamel"
 ```
 
 Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Azrael cat](/images/azrael.png "Azrael")
 
 Reference-style: 
-![alt text][logo]
+![vicious Gargamel][gargamel]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[gargamel]: /images/gargamel.png "Gargamel"
 

@@ -4,7 +4,7 @@ title:          Usage sample
 keywords:       usage, sample
 description:    Usage sample of md-site-engine.
 --- Menu system
-order:          170
+order:          70
 text:           Usage sample
 hidden:         false
 umbel:          false
@@ -17,7 +17,7 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
 # Usage sample

@@ -4,7 +4,7 @@ title:          Application structure
 keywords:       application, structure
 description:    Default application structure in md-site-engine.
 --- Menu system
-order:          150
+order:          50
 text:           Application structure
 hidden:         false
 umbel:          false
@@ -17,7 +17,7 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
 # Application structure

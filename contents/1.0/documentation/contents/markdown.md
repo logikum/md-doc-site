@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Document files
-keywords:       document file
-description:    Document files in md-site-engine.
+title:          Markdown syntax
+keywords:       markdown, syntax
+description:    Markdown syntax in md-site-engine.
 --- Menu system
-order:          90
-text:           Document files
+order:          20
+text:           Markdown syntax
 hidden:         false
 umbel:          false
 --- Page properties
@@ -17,9 +17,9 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
-# Document files
+# Markdown syntax
 
-Description...
+{{ =markdown }}

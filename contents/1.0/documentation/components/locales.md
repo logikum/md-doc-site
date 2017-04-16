@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Markdown syntax
-keywords:       markdown, syntax
-description:    Markdown syntax in md-site-engine.
+title:          Locale files
+keywords:       locale file
+description:    Locale files in md-site-engine.
 --- Menu system
-order:          40
-text:           Markdown syntax
+order:          50
+text:           Locale files
 hidden:         false
 umbel:          false
 --- Page properties
@@ -17,9 +17,9 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
-# Markdown syntax
+# Locale files
 
-{{ =markdown }}
+Description...

@@ -4,7 +4,7 @@ title:          API
 keywords:       API
 description:    API for md-site-engine.
 --- Menu system
-order:          190
+order:          90
 text:           API
 hidden:         false
 umbel:          false
@@ -17,9 +17,9 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
-# API
+# md-site-engine API
 
 Description...

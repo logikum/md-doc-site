@@ -1,32 +1,33 @@
-[~]: /documentation
-[Introduction]: ~
-[Content files]: ~/contents
-[Using languages]: ~/languages
-[Markdown syntax]: ~/markdown
-[Custom renderer]: ~/renderer
-[Content metadata]: ~/metadata
-[Menu system]: ~/menus
-[Components]: ~/components
-[Document files]: ~/documents
-[Layout files]: ~/layouts
-[Segment files]: ~/segments
-[Reference files]: ~/references
-[Locale files]: ~/locales
-[Controls]: ~/controls
-[Application structure]: ~/structure
-[Application configuration]: ~/configuration
-[Usage sample]: ~/usage
-[Development support]: ~/development
-[API]: ~/api
+[~1]: /documentation
+[Introduction]: ~1
+[Content files]: ~1/contents
+[Using languages]: ~1/languages
+[Markdown syntax]: ~1/markdown
+[Custom renderer]: ~1/renderer
+[Content metadata]: ~1/metadata
+[Menu system]: ~1/menus
+[Components]: ~1/components
+[Document files]: ~1/documents
+[Layout files]: ~1/layouts
+[Segment files]: ~1/segments
+[Reference files]: ~1/references
+[Locale files]: ~1/locales
+[Controls]: ~1/controls
+[Application structure]: ~1/structure
+[Application configuration]: ~1/configuration
+[Usage sample]: ~1/usage
+[Development support]: ~1/development
+[API]: ~1/api
 
-[Headers]: /markdown/headers
-[Emphasis]: /markdown/emphasis
-[Lists]: /markdown/lists
-[Links]: /markdown/links
-[Images]: /markdown/images
-[Code and syntax highlighting]: /markdown/highlight
-[Tables]: /markdown/tables
-[Blockquotes]: /markdown/blockquotes
-[Inline HTML]: /markdown/html
-[Horizontal rule]: /markdown/rule
-[Line Breaks]: /markdown/breaks
+[~2]: /markdown
+[Headers]: ~2/headers
+[Emphasis]: ~2/emphasis
+[Lists]: ~2/lists
+[Links]: ~2/links
+[Images]: ~2/images
+[Code and syntax highlighting]: ~2/highlight
+[Tables]: ~2/tables
+[Blockquotes]: ~2/blockquotes
+[Inline HTML]: ~2/html
+[Horizontal rule]: ~2/rule
+[Line Breaks]: ~2/breaks

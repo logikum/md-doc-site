@@ -4,7 +4,7 @@ title:          Development support
 keywords:       development, support
 description:    Development support in md-site-engine.
 --- Menu system
-order:          180
+order:          80
 text:           Development support
 hidden:         false
 umbel:          false
@@ -17,7 +17,7 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
 # Development support

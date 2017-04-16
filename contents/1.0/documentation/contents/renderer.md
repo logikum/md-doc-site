@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Segment files
-keywords:       segment file
-description:    Segment files in md-site-engine.
+title:          Custom renderer
+keywords:       custom, markdown, renderer
+description:    Custom markdown renderer in md-site-engine.
 --- Menu system
-order:          110
-text:           Segment files
+order:          30
+text:           Custom renderer
 hidden:         false
 umbel:          false
 --- Page properties
@@ -17,9 +17,9 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
-# Segment files
+# Custom markdown renderer
 
 Description...

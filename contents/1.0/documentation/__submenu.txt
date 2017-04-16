@@ -1,6 +1,6 @@
 <!-- ======================================================================
 --- Menu system
-order:          20
+order:          21
 text:           Documentation
 hidden:         true
 umbel:          false

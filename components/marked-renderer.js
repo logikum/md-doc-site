@@ -6,8 +6,8 @@ function markedRenderer( marked ) {
 
   // Synchronous highlighting with highlight.js
   marked.setOptions( {
-    highlight: function ( code ) {
-      return highlight.highlightAuto( code, [ 'javascript' ] ).value;
+    highlight: function ( code, lang ) {
+      return highlight.highlightAuto( code, [ lang ] ).value;
     }
   } );
 

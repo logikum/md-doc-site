@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Reference files
-keywords:       reference file
-description:    Reference files in md-site-engine.
+title:          Content metadata
+keywords:       Content metadata
+description:    Content metadata in md-site-engine.
 --- Menu system
-order:          120
-text:           Reference files
+order:          40
+text:           Content metadata
 hidden:         false
 umbel:          false
 --- Page properties
@@ -17,9 +17,9 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
-# Reference files
+# Content metadata
 
 Description...

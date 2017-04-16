@@ -4,7 +4,7 @@ title:          Using languages
 keywords:       multi-language
 description:    Using languages in md-site-engine.
 --- Menu system
-order:          30
+order:          10
 text:           Using languages
 hidden:         false
 umbel:          false
@@ -17,7 +17,7 @@ $-left:         #side-menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
 side-menu-top:      Introduction
-side-menu-depth:    1
+side-menu-depth:    2
 ======================================================================= -->
 
 # Using languages
