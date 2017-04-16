@@ -30,7 +30,7 @@ highlighting for dozens of languages (and not-really-languages, like diffs
 and HTTP headers); to see the complete list, and how to write the language
 names, see the [highlight.js] demo page.
 
-```
+```markdown
 Inline `code` has `back-ticks around` it.
 ```
 
@@ -44,38 +44,40 @@ blocks -- they're easier and only they support syntax highlighting.
     var isNumber = typeof NaN === "number";
     alert(isNumber);
     ```
-     
+    
     ```python
     s = "Python syntax highlighting"
     print s
     ```
-     
+    
     ```
     <p>When <b>no language</b> is indicated, it tries to detect
     the language <i>automatically</i>.</p> 
     ```
     
-    ```no-highlight
+    ```nohighlight
     Omitting highlight is requested, so no syntax highlighting. 
     Even if a <b>tag</b> is found.
     ```
+
+The above markdown fragments produce the following outputs:
 
 ```javascript
 var isNumber = typeof NaN === "number";
 alert(isNumber);
 ```
- 
+
 ```python
 s = "Python syntax highlighting"
 print s
 ```
- 
+
 ```
 <p>When <b>no language</b> is indicated, it tries to detect
 the language <i>automatically</i>.</p> 
 ```
 
-```no-highlight
+```nohighlight
 Omitting highlight is requested, so no syntax highlighting. 
 Even if a <b>tag</b> is found.
 ```

@@ -24,7 +24,7 @@ side-menu-depth:    1
 
 There are two ways to create links.
 
-```
+```markdown
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")

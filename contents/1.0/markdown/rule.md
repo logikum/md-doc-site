@@ -22,7 +22,7 @@ side-menu-depth:    1
 
 # Horizontal rule
 
-```
+```markdown
 Three or more...
 
 ---

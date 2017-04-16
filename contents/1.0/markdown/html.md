@@ -24,7 +24,7 @@ side-menu-depth:    1
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
-```
+```markdown
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>

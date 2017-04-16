@@ -27,7 +27,7 @@ of GFM and [marked] supports them. They are an easy way of adding tables
 to your email -- a task that would otherwise require copy-pasting from
 another application.
 
-```
+```markdown
 Colons can be used to align columns.
 
 | Tables        | Are           | Cool  |

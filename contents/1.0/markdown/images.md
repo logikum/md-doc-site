@@ -22,7 +22,7 @@ side-menu-depth:    1
 
 # Images
 
-```
+```markdown
 Here's our logo (hover to see the title text):
 
 Inline-style: 

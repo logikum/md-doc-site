@@ -22,7 +22,7 @@ side-menu-depth:    1
 
 # Headers
 
-```
+```markdown
 # H1
 ## H2
 ### H3

@@ -24,7 +24,7 @@ side-menu-depth:    1
 
 (In this example, leading and trailing spaces are shown with with dots: ⋅)
 
-```
+```markdown
 1. First ordered list item
 2. Another item
 ⋅⋅* Unordered sub-list. 

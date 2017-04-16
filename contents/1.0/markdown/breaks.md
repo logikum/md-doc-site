@@ -26,7 +26,7 @@ My basic recommendation for learning how line breaks work is to experiment and d
 
 Here are some things to try out:
 
-```
+```markdown
 Here's a line for us to start with.
 
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
