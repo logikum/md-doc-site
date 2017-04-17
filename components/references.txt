@@ -1,3 +1,5 @@
 [~]: https://github.com
 [marked]: ~/chjj/marked
 [highlight.js]: ~/isagalaev/highlight.js
+[express-session]: ~/expressjs/session
+[connect-redis]: ~/tj/connect-redis
