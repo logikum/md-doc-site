@@ -21,15 +21,15 @@
 
 [configuration]: ~1/configuration
 
-[~213]: /markdown
-[Headers]: ~213/headers
-[Emphasis]: ~213/emphasis
-[Lists]: ~213/lists
-[Links]: ~213/links
-[Images]: ~213/images
-[Code and syntax highlighting]: ~213/highlight
-[Tables]: ~213/tables
-[Blockquotes]: ~213/blockquotes
-[Inline HTML]: ~213/html
-[Horizontal rule]: ~213/rule
-[Line Breaks]: ~213/breaks
+[~2]: /markdown
+[Headers]: ~2/headers
+[Emphasis]: ~2/emphasis
+[Lists]: ~2/lists
+[Links]: ~2/links
+[Images]: ~2/images
+[Code and syntax highlighting]: ~2/highlight
+[Tables]: ~2/tables
+[Blockquotes]: ~2/blockquotes
+[Inline HTML]: ~2/html
+[Horizontal rule]: ~2/rule
+[Line Breaks]: ~2/breaks

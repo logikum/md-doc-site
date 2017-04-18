@@ -111,7 +111,7 @@ The name of the layout segment in document files.
 
 Type: `string` Default value: `'content'`
 
-The name of the content segment in layout/document files.
+The name of the content segment in layout files.
 
 #### getRenderer
 
@@ -151,3 +151,51 @@ A session is uninitialized when it is new but not modified.
 The configuration objects provides a default redis object to speed up
 the development of the application when [connect-redis] module is used
 for session store. For more options see the module description.
+
+#### redis.host
+
+Type: `string` Default value: `'localhost'`
+
+This is the hostname of the Redis server.
+
+#### redis.port
+
+Type: `number` Default value: `6379`
+
+This is the port of the Redis server.
+
+#### redis.db
+
+Type: `number` Default value: `0`
+
+This is the database index to use. Defaults to Redis's default.
+
+#### redis.pass
+
+Type: `string` Default value: `undefined`
+
+This is the password for Redis authentication.
+
+### Default names of languages
+
+The `bootstrap-navbar` control displays a dropdown list of available languages.
+If the control finds a `locale` object property on the configuration objects,
+it tries to find properties named as the locale codes on it to display native
+names of the languages; otherwise it uses the locale codes.
+
+#### locale.&lt;code>
+
+Type: `string` Default value: `undefined`
+
+This is the native name of the language `code`. An example:
+
+```json
+{
+    ...
+    "locale": {
+        "en": "English",
+        "hu": "magyar",
+        "ru": "русский"
+    }
+}
+```
