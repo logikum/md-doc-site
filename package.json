@@ -10,7 +10,7 @@
   "author": "Mármarosi József <marmarosi@logikum.hu>",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.12",
+    "body-parser": "^1.17",
     "compression": "^1.5.2",
     "connect-redis": "^2.3",
     "express": "^4.12",
