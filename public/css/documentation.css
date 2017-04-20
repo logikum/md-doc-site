@@ -25,7 +25,6 @@ body {
     padding: 15px;
     background-color: #fff;
 }
-/* Side menu */
 .left-bar h4 a {
     color: #bc6954;
 }
@@ -33,11 +32,7 @@ body {
     list-style-type: none;
     padding-left: 0;
 }
-hr {
-    color: #bc6954;
-    background-color: #f2eeb3;
-    height: 4px;
-}
+/* Side menu */
 ul.side-menu {
     margin-left: -5px;
     margin-right: -5px;
@@ -64,6 +59,11 @@ h3 {
 }
 a, a:visited {
     color: #bc6954;
+}
+hr {
+    color: #bc6954;
+    background-color: #f2eeb3;
+    height: 4px;
 }
 blockquote {
     font-size: 1em;
