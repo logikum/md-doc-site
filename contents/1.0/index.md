@@ -1,6 +1,6 @@
-_<!-- ======================================================================
+<!-- ======================================================================
 --- Search engine
-title:          Home Page
+title:          Home page
 keywords:       home page
 description:    Home page of md-site-engine documentation site.
 --- Menu system
@@ -13,7 +13,8 @@ id:
 document:       
 layout:         
 ---$-left:         
-======================================================================= -->_
+searchable:     true
+======================================================================= -->
 
 <div class="pull-right"><img src="/images/mdse-w200.png"></div>
 

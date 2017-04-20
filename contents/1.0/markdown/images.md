@@ -13,6 +13,7 @@ id:
 document:       
 layout:         layout-2-left
 $-left:         #side-menu
+searchable:     true
 --- Side menu
 side-menu-root:     /markdown
 side-menu-header:   Markdown help
