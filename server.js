@@ -1,10 +1,5 @@
 'use strict';
 
-// TODO:
-// search = kereses, use ID
-// Post search, no body: warning for bodyParser
-// search-button-conrol: conditional
-
 var express = require( 'express' );
 var bodyParser = require('body-parser');
 var path = require( 'path' );
