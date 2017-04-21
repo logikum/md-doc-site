@@ -8,7 +8,6 @@ var compression = require( 'compression' );
 var serveStatic = require( 'serve-static') ;
 var session = require( 'express-session' );
 var RedisStore = require( 'connect-redis' )( session );
-var locale = require('locale');
 var bodyParser = require('body-parser');
 var engine = require( 'md-site-engine' );
 
@@ -44,9 +43,6 @@ app.use( compression() );
 
 // Serve static files.
 app.use( serveStatic( 'public', { index: false } ) );
-
-// Set browser locale negotiation.
-app.use( locale( contents.supportedLocales ) );
 
 // Get posted data for search.
 app.use(bodyParser.urlencoded({ extended: true }));
