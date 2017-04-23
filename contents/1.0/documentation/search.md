@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Application structure
-keywords:       application, structure
-description:    Default application structure in md-site-engine.
+title:          Content search
+keywords:       content, search
+description:    Content search in md-site-engine.
 --- Menu system
-order:          60
-text:           Application structure
+order:          50
+text:           Content search
 hidden:         false
 umbel:          false
 --- Page properties
@@ -21,6 +21,6 @@ side-menu-top:      Introduction
 side-menu-depth:    2
 ======================================================================= -->
 
-# Application structure
+# Content search
 
 Description...

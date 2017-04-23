@@ -4,7 +4,7 @@ title:          Application configuration
 keywords:       application, configuration
 description:    Default application configuration in md-site-engine.
 --- Menu system
-order:          60
+order:          70
 text:           Application configuration
 hidden:         false
 umbel:          false
@@ -200,3 +200,60 @@ This is the native name of the language `code`. An example:
     }
 }
 ```
+
+### Default route and resource paths
+
+The module uses some predefined route paths to implement some function.
+The development helper pages also require some predefined external resources.
+The configuration objects provides a default path object to make possible to
+overwrite these paths if it is necessary.
+
+#### paths.notFound
+
+Type: `string` Default value: `'/404'`
+
+This is the path of the page that is displayed when a requested resource is
+unavailable.
+
+#### paths.setLanguage
+
+Type: `string` Default value: `'/set-language'`
+
+This is the path invoked when a language change is requested.
+
+#### paths.reboot
+
+Type: `string` Default value: `'/reboot'`
+
+This is the path to be invoked to restart the engine.
+
+#### paths.search
+
+Type: `string` Default value: `'/search'`
+
+This is the path invoked when a content search is initiated.
+
+#### paths.RandD
+
+Type: `string` Default value: `'/r&d'`
+
+This is the path to be invoked to display the processed resources used by the
+engine. Tha path is available in development environment only.
+
+#### paths.cssBootstrap
+
+Type: `string` Default value: `'//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'`
+
+This is the path of the style of the development pages.
+
+#### paths.cssHighlight
+
+Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/ir-black.min.css'`
+
+This is the path of the style of the code highlighter on the development pages.
+
+#### paths.jsHighlight
+
+Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js'`
+
+This is the path of the script of the code highlighter on the development pages.

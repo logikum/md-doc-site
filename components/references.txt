@@ -3,3 +3,4 @@
 [highlight.js]: ~/isagalaev/highlight.js
 [express-session]: ~/expressjs/session
 [connect-redis]: ~/tj/connect-redis
+[Bootstrap]: http://getbootstrap.com
