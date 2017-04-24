@@ -179,7 +179,7 @@ This is the password for Redis authentication.
 
 ### Default names of languages
 
-The `bootstrap-navbar` control displays a dropdown list of available languages.
+The `bootstrap-navbar` control displays a drop-down list of available languages.
 If the control finds a `locale` object property on the configuration objects,
 it tries to find properties named as the locale codes on it to display native
 names of the languages; otherwise it uses the locale codes.

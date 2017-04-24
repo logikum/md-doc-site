@@ -23,7 +23,7 @@ side-menu-depth:    1
 
 # Tables
 
-Tables aren't part of the core markdown specification, but they are part
+Tables are not part of the core markdown specification, but they are part
 of GFM and [marked] supports them. They are an easy way of adding tables
 to your email -- a task that would otherwise require copy-pasting from
 another application.
