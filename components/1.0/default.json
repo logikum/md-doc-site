@@ -1,7 +1,7 @@
 {
-  "title": "[md-doc-site]",
+  "title": "[md-site-engine]",
   "keywords": "markdown, md-site-engine",
-  "search": "Search for...",
+  "searchHint": "Search for...",
   "noSearchPhrase": "There is nothing to search.",
   "noSearchResult": "Search has not found matching content."
 }

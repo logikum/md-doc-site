@@ -4,7 +4,7 @@ title:          Document files
 keywords:       document file
 description:    Document files in md-site-engine.
 --- Menu system
-order:          10
+order:          20
 text:           Document files
 hidden:         false
 umbel:          false

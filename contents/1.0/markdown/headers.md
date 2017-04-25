@@ -43,7 +43,7 @@ Alt-H2
 <h1 style="color: #000">H1</h1>
 
 ## H2
-### H3
+<h3 style="border-bottom-width: 0">H3</h3>
 #### H4
 ##### H5
 ###### H6

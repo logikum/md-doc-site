@@ -4,7 +4,7 @@ title:          Layout files
 keywords:       layout file
 description:    Layout files in md-site-engine.
 --- Menu system
-order:          20
+order:          30
 text:           Layout files
 hidden:         false
 umbel:          false

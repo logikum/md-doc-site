@@ -53,8 +53,9 @@ Returns the current language. Its typical usage in a document file:
 
 ### title
 
-Returns the title metadata of the current content. Its typical usage in a
-document file:
+Returns the title metadata of the current content. When missing, returns a
+default title defined as a localized resource. That requires a `title` key in
+the `default.json` locale file. Its typical usage in a document file:
 
 ```html
 <!DOCTYPE html>
@@ -89,8 +90,9 @@ document file:
 
 ### keywords
 
-Returns the keywords metadata of the current content. Its typical usage in a
-document file:
+Returns the merged default keywords defined as a localized resource and the
+keywords metadata of the current content. The former requires a `keywords` key
+in the `default.json` locale file. Its typical usage in a document file:
 
 ```html
 <!DOCTYPE html>
@@ -120,6 +122,9 @@ site. Its typical usage in a layout file:
   ...
 </nav>
 ```
+
+If search functionality is activated, a `searchHint` key is required in the
+`default.json` locale file for the placeholder of the input field. 
 
 ### side-menu
 
@@ -170,4 +175,7 @@ information see [Content search]. Its typical usage in a special content file
 
 {{ob}}{ #search-results }}
 ```
+
+The `search-results` control requires `noSearchPhrase` and `noSearchResult` keys
+in the `default.json` locale file for the messages in unsuccesful cases. 
 

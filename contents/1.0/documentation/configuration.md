@@ -95,6 +95,12 @@ Type: `string` Default value: `'reference.txt'`
 
 The name of the reference files.
 
+#### localeFile
+
+Type: `string` Default value: `'default.json'`
+
+The name of the default locale file.
+
 #### submenuFile
 
 Type: `string` Default value: `'__submenu.txt'`

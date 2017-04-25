@@ -23,4 +23,72 @@ side-menu-depth:    2
 
 # Locale files
 
-Description...
+The locale files can contain the localizable resources of controls. A locale
+file is a standard JSON file and has __.json__ extension. The default name is
+`default.json`, but it can have any name. The name of the default locale file
+can be set in the [configuration]. The locale files belong to the components.
+By nature the locale files can be in the language directories only.
+
+The following example shows an English locale file with the resources required
+by the engine (in case of using predefined controls and search functionality):
+
+```json
+{
+  "title": "[md-site-engine]",
+  "keywords": "markdown, md-site-engine",
+  "searchHint": "Search for...",
+  "noSearchPhrase": "There is nothing to search.",
+  "noSearchResult": "Search has not found matching content."
+}
+```
+
+The locale values are available by `translate( key )` or `t( key )` functions of
+the controls' context using the keys of the locales:
+ 
+ ```javascript
+function control( ctx ) {
+  // ...
+  var title = ctx.translate( 'title' );
+  var msg = ctx.t( 'noSearchResult' );
+  // ...
+}
+```
+
+If the name of the locale file is `tiger.json`, the the locale values can be
+accessed by adding the filename without the extension to the key:
+
+ ```javascript
+function control( ctx ) {
+  // ...
+  var title = ctx.translate( 'tiger.title' );
+  var msg = ctx.t( 'tiger.noSearchResult' );
+  // ...
+}
+```
+
+The locale files can placed in subdirectories as well. In that case the values
+of the 'rivers/default.json' files can be gotten using the directory name:
+
+ ```javascript
+function control( ctx ) {
+  // ...
+  var title = ctx.translate( 'rivers.title' );
+  var msg = ctx.t( 'rivers.noSearchResult' );
+  // ...
+}
+```
+
+Finally using the 'rivers/nile.json' locale file the values can be taken with
+both the directory and the filename:
+
+ ```javascript
+function control( ctx ) {
+  // ...
+  var title = ctx.translate( 'rivers.nile.title' );
+  var msg = ctx.t( 'rivers.nile.noSearchResult' );
+  // ...
+}
+```
+
+> **Caution!** Using both `tiger.json` and `tiger/default.json` locale files,
+the values are overwritten by each other if the files has matching keys!

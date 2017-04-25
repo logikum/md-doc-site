@@ -38,9 +38,9 @@ file. The reference files are the appropriate places for site wide links.
 [highlight.js]: ~/isagalaev/highlight.js
 ```
 
-Tilde character can be used for common link roots to shorten repeating
-long URLs. If more common link root is required, the tilde and a number
-can be applied:
+Tilde (`~`) character can be used for common link roots to shorten repeating
+long URLs. If more common link root is required, then a tilde and a number
+can be applied (`~123`) :
 
 ```markdown
 [~]: https://github.com/logikum/md-doc-site
