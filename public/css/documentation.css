@@ -44,6 +44,11 @@ ul.side-menu li {
 ul.side-menu li.active {
     background-color: #fff;
 }
+ul.side-menu li.divider {
+    border-top: solid 3px #fff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 ul.side-menu ul li {
     padding-left: 20px;
 }

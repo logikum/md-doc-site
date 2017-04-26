@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Application configuration
-keywords:       application, configuration
+title:          Engine configuration
+keywords:       configuration
 description:    Default application configuration in md-site-engine.
 --- Menu system
-order:          70
-text:           Application configuration
+order:          60
+text:           Engine configuration
 hidden:         false
 umbel:          false
 --- Page properties
@@ -21,7 +21,7 @@ side-menu-top:      Introduction
 side-menu-depth:    2
 ======================================================================= -->
 
-# Application configuration
+# Engine configuration
 
 At start up md-site-engine requires a JSON object that holds options. A
 typical start up can look like that:
