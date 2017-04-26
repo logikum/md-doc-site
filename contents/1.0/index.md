@@ -16,20 +16,6 @@ layout:
 searchable:     true
 ======================================================================= -->
 
-<div class="pull-right"><img src="/images/mdse-w200.png"></div>
-
 # md-site-engine
 
-Description [link](/) description 
-
-```$javascript
-function getTitle( ctx ) {
-  return  merge( ctx.translate( 'title' ), ctx.metadata.title, ' ♦ ' );
-}
-
-function merge( first, second, separator ) {
-  var merged = first || '';
-  merged += second ? separator + second : '';
-  return merged;
-}
-```
+Under development...
