@@ -1,0 +1,34 @@
+{
+  "name": "md-doc-site",
+  "version": "0.1.0",
+  "description": "Documentation site for md-site-engine module.",
+  "keywords": [
+    "md-site-engine",
+    "markdown",
+    "node.js",
+    "web site"
+  ],
+  "license": "MIT",
+  "author": "Mármarosi József <marmarosi@logikum.hu>",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17",
+    "compression": "^1.6",
+    "connect-redis": "^3.2",
+    "express": "^4.12",
+    "express-session": "^1.11",
+    "helmet": "^3.5",
+    "highlight.js": "^9.11",
+    "md-site-engine": "^0.1",
+    "serve-favicon": "^2.3.0",
+    "serve-static": "^1.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logikum/md-doc-site.git"
+  },
+  "bugs": "https://github.com/logikum/md-doc-site/issues",
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
