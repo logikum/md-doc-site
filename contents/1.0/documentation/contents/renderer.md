@@ -4,7 +4,7 @@ title:          Custom renderer
 keywords:       custom, markdown, renderer
 description:    Custom markdown renderer in md-site-engine.
 --- Menu system
-order:          30
+order:          50
 text:           Custom renderer
 hidden:         false
 umbel:          false

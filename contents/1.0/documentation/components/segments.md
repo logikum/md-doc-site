@@ -25,9 +25,9 @@ side-menu-depth:    2
 
 More content files can contain the same piece of information. These text blocks
 can be placed in special content files called segments. The segment files help
-to avoid repeats and make easier the maintenance. The segment files can also be
-used to separate some kind of contents by some principle definition to facilitate
-understanding and maintenance.
+to avoid repeating texts and make easier the maintenance. The segment files can
+also be used to separate some kind of contents by some principle definition to
+facilitate understanding and maintenance.
 
 The segment files can have __.md__ and __.html__ extensions. They belong to the
 components. The segment files can appear in the root directory and in the

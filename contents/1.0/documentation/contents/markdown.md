@@ -4,7 +4,7 @@ title:          Markdown syntax
 keywords:       markdown, syntax
 description:    Markdown syntax in md-site-engine.
 --- Menu system
-order:          20
+order:          10
 text:           Markdown syntax
 hidden:         false
 umbel:          false

@@ -44,12 +44,11 @@ Type: `string`
 
 Gets the current language.
 
-#### baseUrl
+#### url
 
 Type: `string`
 
-Gets the URL path on which a router instance was mounted, i.e. the path of the
-content.
+Gets the request URL string, i.e. the path of the content.
 
 #### metadata
 
@@ -64,22 +63,11 @@ Type: `MenuStock`
 
 Gets the menu tree of the current language. See the [Menu system] page.
 
-#### translate( key ) _--or--_ t( key )
+#### data
 
-key: `string`  
-Returns: `string`
+Type: `object` Default value: `{ }`
 
-Gets the localized text of the key in the current language. See [Locale files].
-
-### Supporting content search
-
-#### text2search
-
-Type: `string` Default value: `''`
-
-Gets the text to search. It is used by the `search-phrase` engine control and is
-filled only when the search function is activated. For more information see
-[Content search].
+Gets or sets the data that are the results of an action. See the [Actions] page.
 
 #### searchPath
 
@@ -88,11 +76,9 @@ Type: `string` Default value: `'/search'`
 Gets the path of the search command. It can be language dependent and is used by
 the [Content search] function.
 
-#### getSearchResults()
+#### translate( key ) _--or--_ t( key )
 
-Returns: `Array.<SearchResult>`
+key: `string`  
+Returns: `string`
 
-Gets the list of search results matching to the search phrase. It is used by the
-`search-results` engine control and is called only when the search function is
-activated. For more information see [Content search].
-
+Gets the localized text of the key in the current language. See [Locale files].
