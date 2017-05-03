@@ -42,13 +42,14 @@ by the engine (in case of using predefined controls and search functionality):
 }
 ```
 
-The locale values are available by `translate( key )` or `t( key )` functions of
-the controls' context using the keys of the locales:
+The locale values are available by `translate( key, defaultValue )` or
+`t( key, defaultValue )` functions of the controls' context using the keys of
+the locales:
  
  ```javascript
 function control( ctx ) {
   // ...
-  var title = ctx.translate( 'title' );
+  var title = ctx.translate( 'title', 'The Beauty of the World' );
   var msg = ctx.t( 'noSearchResult' );
   // ...
 }

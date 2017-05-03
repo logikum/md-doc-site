@@ -47,6 +47,7 @@ document:
 layout:         layout-2-left
 $-left:         #side-menu
 searchable:     true
+rewrite:        
 --- Side menu
 side-menu-root:     /documentation
 side-menu-header:   Documentation
@@ -174,6 +175,14 @@ defined by the layout files.
 Type: `Boolean` Default value: `true`
 
 When the value is `false`, the content search skips the given content.
+
+#### rewrite
+
+Type: `string` Default value: `''`
+
+When the rewrite property is defined, the engine makes an inner URL rewrite
+using the value of the property. The value has to be the path of o content file,
+and the web page will displaz that content.
 
 ### Side menu properties
 

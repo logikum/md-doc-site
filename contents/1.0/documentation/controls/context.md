@@ -76,9 +76,10 @@ Type: `string` Default value: `'/search'`
 Gets the path of the search command. It can be language dependent and is used by
 the [Content search] function.
 
-#### translate( key ) _--or--_ t( key )
+#### translate( key, defaultValue ) _--or--_ t( key, defaultValue )
 
 key: `string`  
+defaultValue: `undefined|string`  
 Returns: `string`
 
 Gets the localized text of the key in the current language. See [Locale files].
