@@ -65,7 +65,7 @@ The default configuration object has the following properties:
 ```
 
 In an application the most of the properties are unchanged.
-A typical configuration lookd like this (of course with the appropriate values):
+A typical configuration looks like this (of course with the appropriate values):
 
 ```json
 {

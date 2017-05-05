@@ -192,7 +192,7 @@ These properties are used by the `side-menu` control. For details see [Menu syst
 
 Type: `string` Default value: `''` Required.
 
-The path of the object in the menu tree which child items will be in the menu.
+The path of the object in the menu tree which child items will be in the menu of.
 For that reason the object has to be a menu node.
 
 #### side-menu-header
