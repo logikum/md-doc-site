@@ -17,9 +17,9 @@
     "connect-redis": "^3.3",
     "express": "^4.15",
     "express-session": "^1.11",
-    "helmet": "^3.5",
+    "helmet": "^3.6",
     "highlight.js": "^9.11",
-    "md-site-engine": "^0.2",
+    "md-site-engine": "^0.3",
     "serve-favicon": "^2.3.0",
     "serve-static": "^1.12"
   },

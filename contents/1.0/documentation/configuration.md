@@ -2,7 +2,7 @@
 --- Search engine
 title:          Configuration  options
 keywords:       configuration, options
-description:    Default application configuration in md-site-engine.
+description:    The configuration options of a md-site-engine application.
 --- Menu system
 order:          60
 text:           Configuration  options
@@ -21,7 +21,7 @@ side-menu-top:      Introduction
 side-menu-depth:    2
 ======================================================================= -->
 
-# Configuration  options
+# Configuration options
 
 At start up md-site-engine requires a JSON object that holds options. A
 typical start up can look like that:
