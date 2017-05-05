@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Engine configuration
-keywords:       configuration
-description:    Default application configuration in md-site-engine.
+title:          Configuration  options
+keywords:       configuration, options
+description:    The configuration options of a md-site-engine application.
 --- Menu system
 order:          60
-text:           Engine configuration
+text:           Configuration  options
 hidden:         false
 umbel:          false
 --- Page properties
@@ -21,7 +21,7 @@ side-menu-top:      Introduction
 side-menu-depth:    2
 ======================================================================= -->
 
-# Engine configuration
+# Configuration options
 
 At start up md-site-engine requires a JSON object that holds options. A
 typical start up can look like that:
@@ -40,7 +40,7 @@ var config = engine.getConfiguration( configPath );
 var contents = engine.getContents( config );
 ```
 
-The configuration object can have the following properties:
+The configuration object has the following properties:
 
 > The default values are only set when the `getConfiguration` method of
 > the engine is used.

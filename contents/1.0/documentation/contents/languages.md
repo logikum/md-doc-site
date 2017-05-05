@@ -4,7 +4,7 @@ title:          Using languages
 keywords:       multi-language
 description:    Using languages in md-site-engine.
 --- Menu system
-order:          10
+order:          30
 text:           Using languages
 hidden:         false
 umbel:          false

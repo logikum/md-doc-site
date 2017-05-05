@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Menu system
-keywords:       menu
-description:    Menu system in md-site-engine.
+title:          Actions
+keywords:       actions
+description:    Actions in md-site-engine.
 --- Menu system
-order:          40
-text:           Menu system
+order:          30
+text:           Actions
 hidden:         false
 umbel:          false
 --- Page properties
@@ -21,6 +21,7 @@ side-menu-top:      Introduction
 side-menu-depth:    2
 ======================================================================= -->
 
-# Menu system
+# Actions
 
-Description...
+Actions...
+

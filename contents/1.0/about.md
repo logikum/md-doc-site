@@ -16,7 +16,7 @@ layout:
 searchable:     true
 ======================================================================= -->
 
-# About
+# About md-site-engine
 
 <div class="text-center">
 ![About this site](/images/mdse.png)
@@ -24,4 +24,17 @@ searchable:     true
 
 <p>&nbsp;</p>
 
-Description
+This site contains the documentation of the `md-site-engine` node.js module.
+
+> The source of the module: [github.com/logikum/md-site-engine](https://github.com/logikum/md-site-engine "|_blank")
+
+The source of this documentation: [github.com/logikum/md-doc-site](https://github.com/logikum/md-doc-site "|_blank")
+
+#### Demonstration
+
+Live demo site: [http://md-web.logikum.hu](http://md-web.logikum.hu "|_blank")  
+The source of the demo: [github.com/logikum/md-web-site](https://github.com/logikum/md-web-site "|_blank")
+
+#### Seed application
+
+The source of the seed application: [github.com/logikum/md-site-seed](https://github.com/logikum/md-site-seed "|_blank")

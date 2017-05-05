@@ -24,7 +24,9 @@ side-menu-depth:    2
 # Components
 
 The components are additional files that help to compose web pages. They
-include segments, documents, layouts, references and locales.
+include segments, documents, layouts, references and locales. The components are
+placed in a __/components__ directory. The location of the directory can be set
+in the [configuration]. 
 
 The segment files are small building blocks that can be inserted into contents
 or other segments. They can be used to hold repeating information, or separate

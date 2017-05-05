@@ -1,11 +1,11 @@
 [~1]: /documentation
 [Introduction]: ~1
 [Content files]: ~1/contents
-[Using languages]: ~1/contents/languages
 [Markdown syntax]: ~1/contents/markdown
-[Custom renderer]: ~1/contents/renderer
 [Content metadata]: ~1/contents/metadata
+[Using languages]: ~1/contents/languages
 [Menu system]: ~1/contents/menus
+[Custom renderer]: ~1/contents/renderer
 [Components]: ~1/components
 [Document files]: ~1/components/documents
 [Layout files]: ~1/components/layouts
@@ -15,6 +15,7 @@
 [Controls]: ~1/controls
 [Context object]: ~1/controls/context
 [Predefined controls]: ~1/controls/predefined
+[Actions]: ~1/controls/actions
 [Content search]: ~1/search
 [Application structure]: ~1/structure
 [Application configuration]: ~1/configuration

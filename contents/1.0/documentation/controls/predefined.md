@@ -32,8 +32,6 @@ The markdown site engine comes with the following built-in controls:
 * bootstrap-navbar
 * side-menu
 * control-search-button
-* search-phrase
-* search-results
 
 ### language
 
@@ -162,20 +160,3 @@ information see [Content search].Its typical usage in a document file:
   </body>
 </html>
 ```
-
-### search-phrase, search-results
-
-The search-`phrase control` returns the text to search and the `search-results`
-control returns a list of the contents that contain the search phrase. For more
-information see [Content search]. Its typical usage in a special content file
-(`/search`):
-
-```html
-<div class="search-phrase">Text to search: {{ob}}{ #search-phrase }}</div>
-
-{{ob}}{ #search-results }}
-```
-
-The `search-results` control requires `noSearchPhrase` and `noSearchResult` keys
-in the `default.json` locale file for the messages in unsuccesful cases. 
-

@@ -12,7 +12,7 @@ var bodyParser = require('body-parser');
 var engine = require( 'md-site-engine' );
 
 // Determine run mode.
-var mode = process.env.PORT || 'development';
+var mode = process.env.NODE_ENV || 'development';
 
 // Get configuration.
 var configPath = 'config/' + mode + '.json';
@@ -46,6 +46,9 @@ app.use( serveStatic( 'public', { index: false } ) );
 
 // Get posted data for search.
 app.use(bodyParser.urlencoded({ extended: true }));
+
+// Set site middlewares.
+contents.setMiddlewares( app );
 
 // Set site routes.
 contents.setRoutes( app, mode === 'development' );

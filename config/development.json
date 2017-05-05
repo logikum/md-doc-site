@@ -1,15 +1,6 @@
 {
   "defaultLocale": "1.0",
-  "contents": "contents",
-  "components": "components",
-  "controls": "controls",
-  "documentFile": "document.html",
-  "layoutFile": "layout.html",
-  "referenceFile": "references.txt",
-  "submenuFile": "__submenu.txt",
-  "layoutSegment": "layout",
-  "contentSegment": "content",
-  "getRenderer": "/components/marked-renderer.js",
+  "getRenderer": "/config/marked-renderer.js",
 
   "session": {
     "secret": "md-site-engine",

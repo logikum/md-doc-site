@@ -1,6 +1,11 @@
-[~]: https://github.com
-[marked]: ~/chjj/marked
-[highlight.js]: ~/isagalaev/highlight.js
-[express-session]: ~/expressjs/session
-[connect-redis]: ~/tj/connect-redis
-[Bootstrap]: http://getbootstrap.com
+[~1]: https://github.com
+[marked]: ~1/chjj/marked "|_blank"
+[highlight.js]: ~1/isagalaev/highlight.js "|_blank"
+[express-session]: ~1/expressjs/session "|_blank"
+[connect-redis]: ~1/tj/connect-redis "|_blank"
+
+[Bootstrap]: http://getbootstrap.com "|_blank"
+
+[~2]: https://github.com/logikum/md-doc-site
+[md-doc-site]: ~2 "|_blank"
+[let us know]: ~2/issues "|_blank"

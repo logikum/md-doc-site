@@ -16,6 +16,6 @@ layout:
 searchable:     true
 ======================================================================= -->
 
-# md-site-engine
+# Markdown site engine
 
 Under development...

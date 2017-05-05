@@ -1,9 +1,7 @@
 <!-- ======================================================================
 --- Menu system
-order:          10
-text:           Markdown syntax
-hidden:         false
+order:          61
+text:           Configuration
+hidden:         true
 umbel:          false
---- Page properties
-rewrite:        /markdown
 ======================================================================= -->

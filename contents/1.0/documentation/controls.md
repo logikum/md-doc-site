@@ -26,7 +26,7 @@ side-menu-depth:    2
 The controls are JavaScript functions, and they have __.js__ extensions.
 The controls are put in a __/controls__ directory. The location of the directory
 can be set in the [configuration]. The controls are language independent,
-therefore control directory do not require `locale` subdirectories.
+therefore control directory do not require `language` subdirectories.
 
 The controls can appear in content and component (document, layout and segment)
 files. The control tokens are distinguished from segment tokens by a leading
