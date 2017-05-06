@@ -61,7 +61,7 @@ This control provides a Bootstrap style navigation bar like on this page, except
 of the brand. The requirements of the control are the same as of []Bootstrap]:
 `bootstrap.css`, `bootstrap.js` and `jquery.js`. The language selector appears
 when the application supports more languages. The search field is also optional,
-for details see the [Content search page.] Complete examples can be found in the
+for details see the [Content search] page. Complete examples can be found in the
 source of the seed and demo applications, and in the source of this documentation
 site, respectively.
 

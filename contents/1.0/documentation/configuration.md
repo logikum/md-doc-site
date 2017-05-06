@@ -4,7 +4,7 @@ title:          Configuration  options
 keywords:       configuration, options
 description:    The configuration options of a md-site-engine application.
 --- Menu system
-order:          60
+order:          70
 text:           Configuration  options
 hidden:         false
 umbel:          false

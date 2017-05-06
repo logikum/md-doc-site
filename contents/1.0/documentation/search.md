@@ -4,7 +4,7 @@ title:          Content search
 keywords:       content, search
 description:    Content search in md-site-engine.
 --- Menu system
-order:          50
+order:          60
 text:           Content search
 hidden:         false
 umbel:          false
