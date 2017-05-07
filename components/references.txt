@@ -4,7 +4,8 @@
 [express-session]: ~1/expressjs/session "|_blank"
 [connect-redis]: ~1/tj/connect-redis "|_blank"
 
-[Bootstrap]: http://getbootstrap.com "|_blank"
+[Bootstrap]: https://getbootstrap.com "|_blank"
+[express]: https://expressjs.com "|_blank"
 
 [~2]: https://github.com/logikum/md-doc-site
 [md-doc-site]: ~2 "|_blank"

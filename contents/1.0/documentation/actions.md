@@ -23,7 +23,17 @@ side-menu-depth:    2
 
 # Actions
 
-Actions...
+Sometimes there is a need to display some content based on data provided by the
+user. Such a simple process usually consists of three steps:
+
+1. A form collecting user input (content).
+2. Processing the data sent by the user (action).
+3. Showing a content depending on the result of the previousstep (content).
+
+The first and last steps can provided on content pages, however, the processing
+the input data requires a JavaScript function called action. The next excerpt
+shows a very simple form that has a single text input field and a submit button.
+Note the action and method properties of the form!
 
 ```html
 <form class="form-inline search-phrase" action="/actions/task" method="post">
@@ -37,13 +47,35 @@ Actions...
 </form>
 ```
 
+> The methods of the forms have to be __POST__!
+
+Let suppose the data of the form will be processed by an action in the
+'/actions/task.js' file. We have to associate the action to the form. This is
+done in the server start up program (`server.js`) using an actions object:
+
 ```javascript
+/* /server.js */
+...
 // Set engine routes.
 var actions = {
   '/actions/task': '/actions/task.js'
 };
 engine.setRoutes( app, actions, mode );
+...
 ```
+
+The property names of the actions object have to match to the actions of the
+input forms, and the values of the properties define the JavaScript modules that
+contain the individual action functions:
+
+#### action( req, ctx )
+
+__req__: The [request](https://expressjs.com/en/4x/api.html#req) object of the [express] framework.  
+__ctx__: The engine context of the current request, see [Context object].  
+__Returns__ a string that has to be a valid identifier (path) of the result content.
+
+Let see a very simple example for the action function that receives the input
+text of the preceding form:
 
 ```javascript
 /* /actions/task.js */
@@ -74,6 +106,8 @@ function action( req, ctx ) {
 
 module.exports = action;
 ```
+
+There is nothing special on the result content, it is an ordinary one.
 
 ### Built-in actions
 

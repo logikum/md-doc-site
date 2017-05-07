@@ -19,7 +19,7 @@
     "express-session": "^1.11",
     "helmet": "^3.6",
     "highlight.js": "^9.11",
-    "md-site-engine": "^0.3",
+    "md-site-engine": "^0.4",
     "serve-favicon": "^2.3.0",
     "serve-static": "^1.12"
   },
