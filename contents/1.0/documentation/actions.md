@@ -47,8 +47,6 @@ Note the action and method properties of the form!
 </form>
 ```
 
-> The methods of the forms have to be __POST__!
-
 Let suppose the data of the form will be processed by an action in the
 '/actions/task.js' file. We have to associate the action to the form. This is
 done in the server start up program (`server.js`) using an actions object:
@@ -58,14 +56,15 @@ done in the server start up program (`server.js`) using an actions object:
 ...
 // Set engine routes.
 var actions = {
-  '/actions/task': '/actions/task.js'
+  'POST:/actions/task': '/actions/task.js'
 };
 engine.setRoutes( app, actions, mode );
 ...
 ```
 
-The property names of the actions object have to match to the actions of the
-input forms, and the values of the properties define the JavaScript modules that
+The property names of the actions object have to match to the __method:action__
+pairs of the input forms. The method and the colon can be omitted, the default
+method is `POST`. The values of the properties define the JavaScript modules that
 contain the individual action functions:
 
 #### action( req, ctx )
