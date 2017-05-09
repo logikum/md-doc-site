@@ -44,13 +44,14 @@ function markedRenderer( marked ) {
    *    * "title" - title contains the title only
    *    * "title | _blank" - title contains both title and target
    *    * "|_blank" - title contains the target only
+   *    * "|" - default target is "_blank"
    */
   renderer.link = function (href, title, text) {
     var target = null;
 
     var pos = (title || '').indexOf( '|' );
     if (pos >= 0) {
-      target = title.substring( pos + 1).trim();
+      target = title.substring( pos + 1).trim() || '_blank';
       title = title.substring( 0, pos).trim();
     }
 
