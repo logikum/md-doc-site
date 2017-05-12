@@ -28,7 +28,7 @@ resources in the site and stores them in a content manager object. The contents
 of this object can be examined at the following URL (which can be set in the
 [configuration]):
 
-#### /r&d
+#### http://localhost:port/r&d
 
 > The resource view is available only when the value of the Node.js environment
   is ** development**.

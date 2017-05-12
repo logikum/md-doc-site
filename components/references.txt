@@ -4,6 +4,7 @@
 [express-session]: ~1/expressjs/session "|"
 [connect-redis]: ~1/tj/connect-redis "|"
 
+[jQuery]: https://jquery.com/ "|"
 [Bootstrap]: https://getbootstrap.com "|"
 [express]: https://expressjs.com "|"
 

@@ -59,13 +59,15 @@ The default configuration object has the following properties:
     "RandD": "/r&d",
     "cssBootstrap": "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
     "cssHighlight": "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/ir-black.min.css",
+    "jsJQuery": "//code.jquery.com/jquery-2.1.4.min.js",
+    "jsBootstrap": "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js",
     "jsHighlight": "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"
   }
 }
 ```
 
-In an application the most of the properties are unchanged.
-A typical configuration looks like this (of course with the appropriate values):
+In an application the most of the properties are unchanged. A typical
+configuration looks something like this (of course with the appropriate values):
 
 ```json
 {
