@@ -56,7 +56,9 @@ The default configuration object has the following properties:
     "setLanguage": "/set-language",
     "reboot": "/reboot",
     "search": "/search",
-    "RandD": "/r&d",
+    "develop": "/r&d"
+  },
+  "develop": {
     "cssBootstrap": "//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
     "cssHighlight": "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/ir-black.min.css",
     "jsJQuery": "//code.jquery.com/jquery-2.1.4.min.js",

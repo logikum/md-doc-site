@@ -238,7 +238,7 @@ Type: `string` Default value: `'/search'`
 
 This is the path invoked when a content search is initiated.
 
-#### paths.RandD
+#### paths.develop
 
 Type: `string` Default value: `'/r&d'`
 
@@ -251,31 +251,31 @@ The development helper pages require some predefined external resources.
 The path object of the configuration object makes possible to overwrite these
 paths if necessary.
 
-#### paths.cssBootstrap
+#### develop.cssBootstrap
 
 Type: `string` Default value: `'//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'`
 
 This is the path of the [Bootstrap] style on the development pages.
 
-#### paths.cssHighlight
+#### develop.cssHighlight
 
 Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/ir-black.min.css'`
 
 This is the path of the style of the [highlight.js] code highlighter on the development pages.
 
-#### paths.jsJQuery
+#### develop.jsJQuery
 
 Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js'`
 
 This is the path of the [jQuery] library on the development pages.
 
-#### paths.jsBootstrap
+#### develop.jsBootstrap
 
 Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js'`
 
 This is the path of the [Bootstrap] script on the development pages.
 
-#### paths.jsHighlight
+#### develop.jsHighlight
 
 Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js'`
 
