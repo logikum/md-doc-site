@@ -27,9 +27,9 @@ There some special files in the `contents` directory.
 
 ### Menu node file
 
-A sub-directory in the `contents` directory can represent a menu node in the
+A subdirectory in the `contents` directory can represent a menu node in the
 menu tree. The properties of the menu node can be set by a special file named
-`__submenu.txt` placed in the mentioned sub-directory. The metadata contains the
+`__submenu.txt` placed in the mentioned subdirectory. The metadata contains the
 menu system properties only:
 
 ```text

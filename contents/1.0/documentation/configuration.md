@@ -4,7 +4,7 @@ title:          Configuration  options
 keywords:       configuration, options
 description:    The configuration options of a md-site-engine application.
 --- Menu system
-order:          60
+order:          70
 text:           Configuration  options
 hidden:         false
 umbel:          false
@@ -207,12 +207,11 @@ This is the native name of the language `code`. An example:
 }
 ```
 
-### Default route and resource paths
+### Default route paths
 
 The module uses some predefined route paths to implement some function.
-The development helper pages also require some predefined external resources.
-The configuration objects provides a default path object to make possible to
-overwrite these paths if it is necessary.
+The configuration object provides a default path object to overwrite these paths
+if necessary.
 
 #### paths.notFound
 
@@ -239,27 +238,45 @@ Type: `string` Default value: `'/search'`
 
 This is the path invoked when a content search is initiated.
 
-#### paths.RandD
+#### paths.develop
 
 Type: `string` Default value: `'/r&d'`
 
 This is the path to be invoked to display the processed resources used by the
 engine. Tha path is available in development environment only.
 
-#### paths.cssBootstrap
+### Default design paths of developer pages
+
+The development helper pages require some predefined external resources.
+The path object of the configuration object makes possible to overwrite these
+paths if necessary.
+
+#### develop.cssBootstrap
 
 Type: `string` Default value: `'//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'`
 
-This is the path of the style of the development pages.
+This is the path of the [Bootstrap] style on the development pages.
 
-#### paths.cssHighlight
+#### develop.cssHighlight
 
 Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/ir-black.min.css'`
 
-This is the path of the style of the code highlighter on the development pages.
+This is the path of the style of the [highlight.js] code highlighter on the development pages.
 
-#### paths.jsHighlight
+#### develop.jsJQuery
 
 Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js'`
 
-This is the path of the script of the code highlighter on the development pages.
+This is the path of the [jQuery] library on the development pages.
+
+#### develop.jsBootstrap
+
+Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js'`
+
+This is the path of the [Bootstrap] script on the development pages.
+
+#### develop.jsHighlight
+
+Type: `string` Default value: `'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js'`
+
+This is the path of the [highlight.js] script of the code highlighter on the development pages.

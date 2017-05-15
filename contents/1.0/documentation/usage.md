@@ -1,11 +1,11 @@
 <!-- ======================================================================
 --- Search engine
-title:          Usage sample
-keywords:       usage, sample
-description:    Usage sample of md-site-engine.
+title:          Using the engine
+keywords:       usage, seed, demonstration, documentation
+description:    Using md-site-engine to create sites.
 --- Menu system
-order:          80
-text:           Usage sample
+order:          100
+text:           Using the engine
 hidden:         false
 umbel:          false
 --- Page properties
@@ -21,6 +21,6 @@ side-menu-top:      Introduction
 side-menu-depth:    2
 ======================================================================= -->
 
-# Usage sample
+# Using the engine
 
 Description...
