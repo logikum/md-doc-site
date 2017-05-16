@@ -25,7 +25,7 @@ side-menu-depth:    2
 
 The content files contain the information to be displayed on the web pages. A
 content file corresponds to a web page, however, the creation of the page
-requires some other components, at least a doucument and a layout file.
+requires some other components, at least a document and a layout file.
 
 The content files can be markdown or HTML files. The markdown file are simple
 text files that use easy to remember markups to generate HTML formatted content
@@ -40,7 +40,7 @@ The subdirectories of root content directory define the languages the engine
 support. If there more `language` directories, the navigation bar displays a
 dropdown menu to select the current language. The default language can be set in
 the [configuration]. The `language` directories can also have subdirectories,
-that can appear as dropdown meus in the navigation bar.
+that can appear as dropdown menus in the navigation bar.
 
 ```text
 /contents

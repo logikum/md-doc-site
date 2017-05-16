@@ -54,7 +54,7 @@ git push -u origin master
 
 #### Install Dependencies
 
-The project hase some kinds of dependencies and you can simply install it:
+The project has some kinds of dependencies and you can simply install it:
 
 ```
 npm install
