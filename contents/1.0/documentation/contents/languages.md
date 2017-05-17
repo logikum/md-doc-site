@@ -73,7 +73,7 @@ The language directories have the same contents even if with localized names:
 In that case when a user changes language, the same page is displayed in the new
 language.
 
-### Vitually multiple sites
+### Virtually multiple sites
 
 The language directories have different contents. For example a company present
 in more countries provides distinct information depending on the language:

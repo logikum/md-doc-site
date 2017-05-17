@@ -95,7 +95,7 @@ The engine builds an object tree based on the content files and the structure of
 the contents directory. The particular objects can be extended by these
 properties. The engine uses this object tree to generate menus when renders
 pages. There is two predefined controls for that purpose: `bootstrap-navbar` and
-`side-menu`. For mpre information see [Menu system].
+`side-menu`. For more information see [Menu system].
 
 #### order
 
@@ -182,7 +182,7 @@ Type: `string` Default value: `''`
 
 When the rewrite property is defined, the engine makes an inner URL rewrite
 using the value of the property. The value has to be the path of o content file,
-and the web page will displaz that content.
+and the web page will display that content.
 
 ### Side menu properties
 

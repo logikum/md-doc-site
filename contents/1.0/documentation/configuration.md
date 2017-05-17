@@ -120,6 +120,12 @@ Type: `string` Default value: `'content'`
 
 The name of the content segment in layout files.
 
+#### searchInNavbar
+
+Type: `Boolean` Default value: `true`
+
+If true the search field is displayed in the navigation bar, otherwise not.
+
 #### getRenderer
 
 Type: `string` Default value: `''`

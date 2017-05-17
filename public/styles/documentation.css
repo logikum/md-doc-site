@@ -25,6 +25,9 @@ body {
     padding: 15px;
     background-color: #fff;
 }
+.left-bar, .right-bar {
+    margin: 10px 0;
+}
 .left-bar h4 a {
     color: #bc6954;
 }

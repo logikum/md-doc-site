@@ -33,7 +33,7 @@ has to contain a form similar like the following:
 ```html
 <form class="form-inline search-phrase" action="/search" method="post">
   <div class="form-group">
-    <label for="text2search">Text to search:</label>
+    <label>Text to search:</label>
     <input type="text" class="form-control" name="text2search"
            maxlength="20" value="{{ .text2search }}">
   </div>
@@ -58,8 +58,8 @@ The `mark` tag is used to highlight the string found on the result pages.
 ### Navigation bar
 
 When content search is activated the navigation bar also displays a search field.
-This field requires following classes being included in the style files of the
-application:
+The search field can be disabled in the [configuration]. This field requires
+the following classes to be included in the style sheet of the application:
 
 ```css
 /* Input group in navigation bar */

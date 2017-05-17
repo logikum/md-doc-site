@@ -28,7 +28,7 @@ user. Such a simple process usually consists of three steps:
 
 1. A form collecting user input (content).
 2. Processing the data sent by the user (action).
-3. Showing a content depending on the result of the previousstep (content).
+3. Showing a content depending on the result of the previous step (content).
 
 The first and last steps can provided on content pages, however, the processing
 the input data requires a JavaScript function called action. The next excerpt
@@ -38,7 +38,7 @@ Note the action and method properties of the form!
 ```html
 <form class="form-inline search-phrase" action="/actions/task" method="post">
   <div class="form-group">
-    <label for="text2search">Task name:</label>
+    <label>Task name:</label>
     <input type="text" class="form-control" name="task"
            maxlength="20" value="{{ .task }}">
   </div>
