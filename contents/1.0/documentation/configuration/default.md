@@ -38,6 +38,7 @@ The default configuration object has the following properties:
   "submenuFile": "__submenu.txt",
   "layoutSegment": "layout",
   "contentSegment": "content",
+  "searchInNavbar": true,
   "getRenderer": "",
 
   "session": {

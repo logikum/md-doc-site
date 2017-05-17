@@ -58,8 +58,8 @@ The `mark` tag is used to highlight the string found on the result pages.
 ### Navigation bar
 
 When content search is activated the navigation bar also displays a search field.
-This field requires following classes being included in the style files of the
-application:
+The search field can be disabled in the [configuration]. This field requires
+the following classes to be included in the style sheet of the application:
 
 ```css
 /* Input group in navigation bar */
