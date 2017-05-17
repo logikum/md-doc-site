@@ -24,7 +24,7 @@ side-menu-depth:    2
 # Menu system
 
 The engine builds an object tree based on the structure of the content files and
-the metada of the contents. The nodes in the tree represent the subdirectories.
+the metadata of the contents. The nodes in the tree represent the subdirectories.
 The properties of a subdirectory can be set in a special file named
 `__submenu.txt` placed in the subdirectory. The properties of the tree elements
 hold the following information:

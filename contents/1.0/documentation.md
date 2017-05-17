@@ -33,7 +33,7 @@ The web site skeleton is an HTML wrapper for the contents. It ensures that the
 engine generate valid HTML documents from the content markdown files. The
 skeleton is usually built from an HTML document wrapper called document file,
 one or more layout files that ensure the appearance of the web pages, some
-components to fill in the plaxes on the web pages, and the usual web stuff -
+components to fill in the places on the web pages, and the usual web stuff -
 style sheets, scripts, images and other media files. In summary, the skeleton is
 covered by standard web site files. Details can found in the [Components]
 section.
