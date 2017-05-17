@@ -1,6 +1,6 @@
 {
   "name": "md-doc-site",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Documentation site for md-site-engine module.",
   "keywords": [
     "md-site-engine",
@@ -19,7 +19,7 @@
     "express-session": "^1.11",
     "helmet": "^3.6",
     "highlight.js": "^9.11",
-    "md-site-engine": "^0.5",
+    "md-site-engine": "^0.6",
     "serve-favicon": "^2.3.0",
     "serve-static": "^1.12"
   },
