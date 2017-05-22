@@ -67,11 +67,19 @@ pairs of the input forms. The method and the colon can be omitted, the default
 method is `POST`. The values of the properties define the JavaScript modules that
 contain the individual action functions:
 
-#### action( req, ctx )
+#### action( req, ctx, callback )
 
 __req__: The [request](https://expressjs.com/en/4x/api.html#req) object of the [express] framework.  
 __ctx__: The engine context of the current request, see [Context object].  
-__Returns__ a string that has to be a valid identifier (path) of the result content.
+__callback( resultUrl )__: The callback function the action has to call to signal the end of the action.
+
+__resultUrl__ 
+
+Type: `string` Default value: `'/404'`
+
+A valid identifier of a content file that displays the result of the action.
+Using the `ctx.getPathById( id )` method ensures that the correct localized
+content path will be applied.
 
 Let see a very simple example for the action function that receives the input
 text of the preceding form:
@@ -81,7 +89,7 @@ text of the preceding form:
 'use strict';
 
 // Task action.
-function action( req, ctx ) {
+function action( req, ctx, callback ) {
 
   // Read form data.
   var task = req.body.task;
@@ -91,22 +99,27 @@ function action( req, ctx ) {
   // Process data.
   if (task.length > 5) {
     // Pass result data.
-    ctx.data.result = task.length;
+    req.ctx.data.result = task.length;
     // Display result.
-    return '/tasks/task-result';
+    callback( ctx.getPathById( '/tasks/task-result' ) );
   }
   else {
     // Show error message.
-    req.ctx.data.error = 'Input text is too short!';
+    ctx.data.error = 'Input text is too short!';
     // Stay on form page.
-    return '/tasks/task-form';
+    callback( ctx.getPathById( '/tasks/task-form' ) );
   }
 }
 
 module.exports = action;
 ```
 
-There is nothing special on the result content, it is an ordinary one.
+There is nothing special on the result content, it is an ordinary content file.
+Data are passed through the `ctx.dara` object.
+
+> Use the `req.ctx.data` object to pass data to the result content when the paths
+of the form and the result files are different, because in that case the context
+object will be recreated to match to the new content file!
 
 ### Built-in actions
 
