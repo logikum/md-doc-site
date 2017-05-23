@@ -49,7 +49,7 @@ from [here](https://nodejs.org/).
 
 Seed application: [github.com/logikum/md-site-seed](https://github.com/logikum/md-site-seed)
 
-Live demo site: [md-web.logikum.hu](http://md-web.logikum.hu)  
+Live demo site: [md-web.logikum.hu](https://md-web.logikum.hu)  
 The source of the demo: [github.com/logikum/md-web-site](https://github.com/logikum/md-web-site)
 
 The source of this site: [github.com/logikum/md-doc-site](https://github.com/logikum/md-doc-site)
