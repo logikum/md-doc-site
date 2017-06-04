@@ -26,8 +26,8 @@ side-menu-depth:    2
 The locale files can contain the localizable resources of controls. A locale
 file is a standard JSON file and has __.json__ extension. The default name is
 `default.json`, but it can have any name. The name of the default locale file
-can be set in the [configuration]. The locale files belong to the components.
-By nature the locale files can be in the language directories only.
+can be set in the [configuration]. The locale files belong to the `/components`.
+By nature the locale files are located in the language directories.
 
 The following example shows an English locale file with the resources required
 by the engine (in case of using predefined controls and search functionality):
@@ -42,9 +42,9 @@ by the engine (in case of using predefined controls and search functionality):
 }
 ```
 
-The locale values are available by `translate( key, defaultValue )` or
-`t( key, defaultValue )` functions of the controls' context using the keys of
-the locales:
+The locale values are available by the `translate( key, defaultValue )` or
+`t( key, defaultValue )` functions of the controls' context using the keys
+of the locales:
  
  ```javascript
 function control( ctx ) {
@@ -55,8 +55,9 @@ function control( ctx ) {
 }
 ```
 
-If the name of the locale file is `tiger.json`, the the locale values can be
-accessed by adding the filename without the extension to the key:
+If the name of the locale file is `tiger.json`, i.e. not the default name,
+the locale values can be accessed by adding the filename without the extension
+to the key:
 
  ```javascript
 function control( ctx ) {
@@ -67,8 +68,9 @@ function control( ctx ) {
 }
 ```
 
-The locale files can placed in subdirectories as well. In that case the values
-of the 'rivers/default.json' files can be gotten using the directory name:
+The locale files can be placed in subdirectories as well. In that case the
+values of the 'rivers/default.json' files can be gotten using the directory
+name:
 
  ```javascript
 function control( ctx ) {
@@ -79,8 +81,8 @@ function control( ctx ) {
 }
 ```
 
-Finally using the 'rivers/nile.json' locale file the values can be taken with
-both the directory and the filename:
+Finally using the 'rivers/nile.json' locale file the values can be taken
+with both the directory name and the filename:
 
  ```javascript
 function control( ctx ) {

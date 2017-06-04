@@ -23,14 +23,14 @@ side-menu-depth:    2
 
 # Special files
 
-There some special files in the `contents` directory.
+There are some special files in the `/contents` directory.
 
 ### Menu node file
 
-A subdirectory in the `contents` directory can represent a menu node in the
+A subdirectory in the `/contents` directory can represent a menu node in the
 menu tree. The properties of the menu node can be set by a special file named
-`__submenu.txt` placed in the mentioned subdirectory. The metadata contains the
-menu system properties only:
+`__submenu.txt` placed in the mentioned subdirectory. The file contains
+ metadata only. The metadata has the menu system properties only:
 
 ```text
 <!-- ======================================================================
@@ -44,8 +44,8 @@ umbel:          false
 
 ### Menu separator file
 
-A menu separator is defined by a very similar file with the exception that this
-is a markdown or HTML file.
+A menu separator is defined by a very similar file with the exception that
+it is an empty markdown or HTML file:
 
 ```text
 <!-- ======================================================================
@@ -60,7 +60,7 @@ umbel:          false
 ### URL rewrite file
 
 URL rewrite can be set in a similar markdown or HTML file. Next to the menu
-properties you need the `rewrite` property:
+properties you need the add the `rewrite` property with the new path:
 
 ```text
 <!-- ======================================================================

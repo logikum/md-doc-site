@@ -14,11 +14,11 @@ var engine = require( 'md-site-engine' );
 // Determine run mode.
 var mode = process.env.NODE_ENV || 'development';
 
-// Get configuration.
+// Get the configuration.
 var configPath = 'config/' + mode + '.json';
 var config = engine.getConfiguration( configPath );
 
-// Set up content manager.
+// Set up the content manager.
 engine.getContents( config );
 
 // Create application.

@@ -23,10 +23,11 @@ side-menu-depth:    2
 
 # Custom markdown renderer
 
-The options of `marked` module has an object type renderer property. The object
-contains functions to render tokens to HTML. The renderer option allows to
-render tokens in a custom manner. Here is an example of overriding the default
-link token rendering by adding a target attribute to the anchor tag:
+The options of `marked` module has a renderer property of object type. The
+object contains functions to render markdown tokens to HTML. The renderer
+option allows to render the tokens in a custom manner. Here is an example
+of overriding the default link token to render by adding a target attribute
+to the anchor tag:
 
 ```javascript
 // marked-renderer.js
@@ -102,4 +103,4 @@ The renderer object has the following functions:
   </tr>
 </table></p>
 
-For more information see the [marked] description.
+For more information see the description of the [marked] module.

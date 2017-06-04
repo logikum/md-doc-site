@@ -25,7 +25,7 @@ side-menu-depth:    2
 
 The components are additional files that help to compose web pages. They
 include segments, documents, layouts, references and locales. The components are
-placed in a __/components__ directory. The location of the directory can be set
+placed in a `/components` directory. The location of the directory can be set
 in the [configuration]. 
 
 The segment files are small building blocks that can be inserted into contents
@@ -34,13 +34,13 @@ concerns. For details see the [Segment files] page.
 
 The document file is a special segment file. Its primary role to create the
 outer mandatory parts of an HTML document. A site usually has one document file,
-however, it can have more if necessary. See [Document files] page for more
+however, it can have more if necessary. See the [Document files] page for more
 information.
 
 The layout file are another sort of segment file. It can be found inside the
-body pat of the HTML document, and it creates the shape of pages. A site can
-have one more layout files depending on the design. For more information see the
-[Layout files] page.
+body tag of the HTML document, and it creates the shape of pages. A site can
+have one or more layout files depending on the design. For more information see
+the [Layout files] page.
 
 > When the engine builds a page, it takes a document file first. Then gets the
 appropriate layout file and places into the document. Finally finds the
@@ -68,11 +68,11 @@ The information is always closed by a static segment:
 
 Markdown has a feature called reference-style links. These reference links can
 be gathered at the end of the document. If some reference links are used
-frequently on the pages, it is practical to place them into a reference file,
-and automatically stick to the end of the content and segment files. For details
-see the [Reference files] page.
+frequently on the pages, it is practical to place them into a reference file
+that is automatically stuck to the end of the content and segment files. For
+details see the [Reference files] page.
 
 Controls can add some dynamic functionality to the static site. Controls are
 language independent, however, sometimes they require localized resources,
 usually texts. These resources can be stored in locale files. For more information
-see the [Locale files] page.
+see the [Controls] and the [Locale files] pages.

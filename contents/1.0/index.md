@@ -18,9 +18,9 @@ searchable:     true
 
 # Markdown site engine
 
-This site is the documentation of the `md-site-engine` Node.js module. It
-generates static HTML pages from markdown files. It requires Node.js version
-0.10 or newer. Features:
+This site is the documentation of the `md-site-engine` Node.js module. The
+module can be used to build and run web sites by generating static HTML
+pages from markdown files. It requires Node.js version 0.10 or newer. Features:
 
 * supports multiple languages
 * supports multiple layouts
@@ -32,16 +32,16 @@ Start reading with the [Introduction].
 
 <p>&nbsp;</p>
 
+#### Prerequisites
+
+You must have Node.js and its package manager (npm) installed. You can get them
+from [here](https://nodejs.org/).
+
 #### Install
 
 ```
 npm install --depth=1 --save md-site-engine
 ```
-
-#### Prerequisites
-
-You must have Node.js and its package manager (npm) installed. You can get them
-from [here](https://nodejs.org/).
 
 <p>&nbsp;</p>
 

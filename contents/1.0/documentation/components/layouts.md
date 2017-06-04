@@ -26,16 +26,16 @@ side-menu-depth:    2
 A layout file is a special segment file that composes the shape of a web page.
 A layout file has __.html__ extension, and the default name is `layout.html`.
 The name of the default layout file can be set in the [configuration]. The layout
-files belong to the components. A site must have a default layout file, that is
-achievable in two ways:
+files belong to the `/components`. A site must have a default layout file, that
+is achievable in two ways:
 
 1. There is a layout file in the root of the components directory.
 2. There is a layout file in each language directories of the components
    directory.
 
-If there is a layout file in the root directory and in the language directory,
-then the language specific one is used. A layout file differs from the segment
-files in one thing only:
+If there is a layout file in the root directory and another with same name in
+a language directory, then the language specific one is used. A layout file
+differs from the segment files in one thing only:
 
 > The layout file has a content segment (`{{ob}}{ content }}`).
 

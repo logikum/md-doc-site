@@ -24,7 +24,7 @@ side-menu-depth:    2
 # Controls
 
 The controls are JavaScript functions, and they have __.js__ extensions.
-The controls are put in a __/controls__ directory. The location of the directory
+The controls are put in a `/controls` directory. The location of the directory
 can be set in the [configuration]. The controls are language independent,
 therefore control directory do not require `language` subdirectories.
 
@@ -56,7 +56,7 @@ module.exports = getExamples;
 ```
 
 The function gets one parameter all the time, a context object that provides
-information about the requested content and its environment. See
+information about the requested content and its environment. See the
 [Context object] page.
 
 The engine provides some predefined controls to ease the first steps in building

@@ -23,7 +23,7 @@ side-menu-depth:    2
 
 # Context object
 
-A control function has one parameter, a context object. It has the following
+A control function has one parameter, the context object that has the following
 properties and methods:
 
 ### Properties

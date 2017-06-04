@@ -50,7 +50,7 @@ The directories contain (at least) the following files:
 
 This is the root directory of the application.It is the place the start up
 script, e.g. `server.js`, and the `package.json` file that holds Node.js and
-npm metadata relevant ot the project.
+npm metadata relevant to the project.
 
 #### /components
 
