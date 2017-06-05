@@ -40,7 +40,7 @@ Note the action and method properties of the form!
   <div class="form-group">
     <label>Task name:</label>
     <input type="text" class="form-control" name="task"
-           maxlength="20" value="{{ .task }}">
+           maxlength="20" value="{{ob}}{ .task }}">
   </div>
   <button type="submit" class="btn btn-primary">Check it!</button>
   <span class="error">{{ob}}{ .error }}</span>
@@ -48,7 +48,7 @@ Note the action and method properties of the form!
 ```
 
 Let suppose the data of the form will be processed by an action located in the
-__/actions/task.js__ file. We have to associate the action to the form. This is
+__/actions/task.js__ file. The action has to be bound to the form. This is
 done in the server start up program (`server.js`) using an actions object:
 
 ```javascript
@@ -99,7 +99,7 @@ function action( req, ctx, callback ) {
   // Process data.
   if (task.length > 5) {
     // Pass result data.
-    req.ctx.data.result = task.length;
+    ctx.data.result = task.length;
     // Display result.
     callback( ctx.getPathById( '/tasks/task-result' ) );
   }
@@ -115,19 +115,17 @@ module.exports = action;
 ```
 
 Actions land on ordinary content files, and data are passed through the
-`ctx.data` object.
-
-> Use the `req.ctx.data` object to pass data to the result content when the paths
-of the form and the result files are different, because in that case the context
-object will be recreated to match to the new content file!
-
-The passed data are available on the contents and segments by a context token,
-where the token name is the name of a property on data object, and it is preceded
-by a dot: `{{bo}}{ .property-name }}`. For example using the previous sample action:
+`ctx.data` object. The passed data are available on the contents and segments
+by a context token, where the token name is the name of a property on the
+data object, and it is preceded by a dot: `{{ob}}{ .property-name }}`. For
+example using the previous sample action:
 
 ```html
 <p>
-  <label>Length:</label> <span class="action-result">{{ob}}{ .result }} characters</span>
+  <label>Task name:</label> <span class="success">{{ob}}{ .task }} characters</span>
+</p>
+<p>
+  <label>Length:</label> <span class="success">{{ob}}{ .result }} characters</span>
 </p>
 ```
 

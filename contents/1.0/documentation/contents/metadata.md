@@ -100,9 +100,10 @@ and `side-menu`. For more information see the [Menu system].
 
 #### order
 
-Type: `number` Default value: `0`
+Type: `number` Default value: `undefined`
 
-The order of the menu item in a menu.
+The order of the menu item in a menu. When not set, no menu item is generated
+for the content.
 
 #### text
 
@@ -112,9 +113,9 @@ The text of the menu item in a menu. Use cases:
 
 | Value | Result |
 | --- | --- |
-| (empty) | the page (content) is skipped - no menu item is generated |
+| (empty) | the default menu text is '-?-' |
 | --- | a menu separation item is generated |
-| any other string | menu item is generated for the page (content) |
+| any other string | a menu item is generated for the content |
 
 
 #### hidden
