@@ -23,10 +23,11 @@ side-menu-depth:    2
 
 # Content metadata
 
-The metadata provide additional information for the content that are used to
-compose a web page. These data help to create menus, determine the layout of the
-web page or optimize the search engines of the Internet. The metadata have to be
-at the beginning of the content file enclosed in a HTML comment.
+The metadata provide additional information for the content that are used
+to compose the web page. These data help to create menus, determine the
+layout of the web page, or optimize the search engines of the Internet.
+The metadata have to be at the beginning of the content file enclosed in
+HTML comment tags.
 
 For example the metadata of this page looks like this:
 
@@ -79,8 +80,8 @@ title of the web page.
 Type: `string` Default value: `''`
 
 The value of the `<meta>` tag named `keywords` in the header of the HTML
-document. It is used to describe the content of the web page by enumerating the
-most specific phrases.
+document. It is used to describe the content of the web page by enumerating
+the most specific phrases.
 
 #### description
 
@@ -91,17 +92,18 @@ document. It is used to describe the content of the web page by a short sentence
 
 ### Menu system properties
 
-The engine builds an object tree based on the content files and the structure of
-the contents directory. The particular objects can be extended by these
+The engine builds an object tree based on the content files and the structure
+of the contents directory. The particular objects can be extended by these
 properties. The engine uses this object tree to generate menus when renders
-pages. There is two predefined controls for that purpose: `bootstrap-navbar` and
-`side-menu`. For more information see [Menu system].
+pages. There are two predefined controls for that purpose: `bootstrap-navbar`
+and `side-menu`. For more information see the [Menu system].
 
 #### order
 
-Type: `number` Default value: `0`
+Type: `number` Default value: `undefined`
 
-The order of the menu item in a menu.
+The order of the menu item in a menu. When not set, no menu item is generated
+for the content.
 
 #### text
 
@@ -111,9 +113,9 @@ The text of the menu item in a menu. Use cases:
 
 | Value | Result |
 | --- | --- |
-| (empty) | the page (content) is skipped - no menu item is generated |
+| (empty) | the default menu text is '-?-' |
 | --- | a menu separation item is generated |
-| any other string | menu item is generated for the page (content) |
+| any other string | a menu item is generated for the content |
 
 
 #### hidden
@@ -140,13 +142,13 @@ the web page.
 
 Type: `string` Default value: `'<path>'`
 
-The identifier of the content, it defaults to the path. In the `language`
-directories the same content files can have different names, so they will have
-different paths. If we want to bind the the same files we have to set the
-identifiers of the matching contents to the same value. A practical solution is
-to use the path of the content of the default language. In that case when the
-user changes language he or she lands on the same web page localized in the
-selected language.
+The identifier of the content, it defaults to the path of the content file.
+In the `language` directories the same content files can have different names,
+so they will have different paths. If you want to joint these files you have
+to set the identifiers of the matching contents to the same value. A practical
+solution is to use the path of the content file in the default language. In
+that case when the user changes language he or she lands on the same web page
+localized in the selected language.
 
 #### document
 
@@ -181,12 +183,13 @@ When the value is `false`, the content search skips the given content.
 Type: `string` Default value: `''`
 
 When the rewrite property is defined, the engine makes an inner URL rewrite
-using the value of the property. The value has to be the path of o content file,
-and the web page will display that content.
+using the value of the property. The value has to be the path of a content
+file, and the web page will display that content.
 
 ### Side menu properties
 
-These properties are used by the `side-menu` control. For details see [Menu system].
+These properties are used by the `side-menu` control. For details see the
+[Menu system].
 
 #### side-menu-root
 
@@ -206,12 +209,13 @@ found, the value will be the title.
 
 Type: `string` Default value: `''`
 
-If defined the root menu will be added as the first item to the side menu. The
-value is the locale key of the text of the menu item. If the locale is not
-found, the value will be the menu text.
+When defined, the root menu will be added as the first item to the side menu.
+The value is the locale key of the text of the menu item. If the locale is
+not found, the value will be the menu text.
 
 #### side-menu-depth
 
 Type: `number` Default value: `1`
 
-The number of the levels in the menu tree used to generate the side menu.
+The number of the levels in the menu tree that are used to generate the
+side menu.

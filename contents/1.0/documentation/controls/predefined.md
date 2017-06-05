@@ -35,7 +35,7 @@ The markdown site engine comes with the following built-in controls:
 
 ### language
 
-Returns the current language. Its typical usage in a document file:
+Returns the current language. Its typical usage is in document files:
 
 ```html
 <!DOCTYPE html>
@@ -52,8 +52,8 @@ Returns the current language. Its typical usage in a document file:
 ### title
 
 Returns the title metadata of the current content. When missing, returns a
-default title defined as a localized resource. That requires a `title` key in
-the `default.json` locale file. Its typical usage in a document file:
+default title defined as a localized resource. That requires a `title` key
+in the `default.json` locale file. Its typical usage is in document files:
 
 ```html
 <!DOCTYPE html>
@@ -70,8 +70,8 @@ the `default.json` locale file. Its typical usage in a document file:
 
 ### description
 
-Returns the description metadata of the current content. Its typical usage in a
-document file:
+Returns the description metadata of the current content. Its typical usage
+is in document files:
 
 ```html
 <!DOCTYPE html>
@@ -89,8 +89,8 @@ document file:
 ### keywords
 
 Returns the merged default keywords defined as a localized resource and the
-keywords metadata of the current content. The former requires a `keywords` key
-in the `default.json` locale file. Its typical usage in a document file:
+keywords metadata of the current content. The former requires a `keywords`
+key in the `default.json` locale file. Its typical usage is in document files:
 
 ```html
 <!DOCTYPE html>
@@ -109,7 +109,7 @@ in the `default.json` locale file. Its typical usage in a document file:
 
 Returns a Bootstrap version 3 style navigation bar. An example cab be seen on
 this site. For more information see the [Menu system] page and the [Bootstrap]
-site. Its typical usage in a layout file:
+site. Its typical usage is in layout files:
 
 ```html
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -126,9 +126,9 @@ If search functionality is activated, a `searchHint` key is required in the
 
 ### side-menu
 
-Returns a vertical list like a table of contents. An example cab be seen on this
-site. For more information see the [Menu system] page. Its typical usage in a
-layout file:
+Returns a vertical link list like a table of contents. An example cab be
+seen on this page. For more information see the [Menu system] page. Its
+typical usage is in layout files:
 
 ```html
 <div class="content">
@@ -145,8 +145,8 @@ layout file:
 
 ### control-search-button
 
-Returns a client side JavaScript routine that supports content search. For more
-information see [Content search].Its typical usage in a document file:
+Returns a client side JavaScript routine that supports content search. For
+more information see [Content search]. Its typical usage is in document files:
 
 ```html
 <!DOCTYPE html>

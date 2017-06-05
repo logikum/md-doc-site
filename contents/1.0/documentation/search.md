@@ -42,7 +42,10 @@ has to contain a form similar like the following:
 
 {{ob}}{ .results }}
 ```
-The results of the search can be listed by the `results` context data object.
+
+The important parts here are the __action__ and __method__ attributes of the
+form, and the __name__ attribute of the input field, respectively. The results
+of the search are listed by the `results` property of the context data object.
 The form and the control use the following style sheet classes:
 
 ```css
@@ -78,9 +81,9 @@ the following classes to be included in the style sheet of the application:
 }
 ```
 
-The search field requires a JavaScript event handler that is provided by the
-`control-search-button` control. It should be placed at the end of the document
-files:
+The search field requires a JavaScript event handler as well that is provided
+by the `control-search-button` control. It should be placed at the end of the
+document files:
 
 ```html
     ...

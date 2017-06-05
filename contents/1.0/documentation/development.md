@@ -31,7 +31,7 @@ of this object can be examined at the following URL (which can be set in the
 #### http://localhost:port/r&d
 
 > The resource view is available only when the value of the Node.js environment
-  is ** development**.
+  is **'development'**.
 
 The following menu is shown:
 

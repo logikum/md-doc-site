@@ -30,11 +30,12 @@ also be used to separate some kind of contents by some principle definition to
 facilitate understanding and maintenance.
 
 The segment files can have __.md__ and __.html__ extensions. They belong to the
-components. The segment files can appear in the root directory and in the
-language directory as well. If there is one in the root directory and another
-with the same name in the language directory, the latter will be used.
+`/components`. The segment files can appear in the root directory of `/components`
+and in the language directories as well. If there is a segment file in the root
+directory and another one with the same name in a language directory, the latter
+will be used.
 
-The segments itself may contain other segments and controls, respectively.
+The segments theirself may contain other segments and controls, respectively.
 
 An example footer segment:
 

@@ -31,7 +31,7 @@ hold the following information:
 
 Property&nbsp;name | Data type | Description
 --------------|-----------|-------------
-id | number | unique identifier
+id | number | unique identifier - used internally only
 text | string | The text of the menu element (from metadata).
 order | number | The order of the menu item (from metadata).
 hidden | Boolean | Indicates whether the menu element is shown (from metadata).
@@ -57,8 +57,8 @@ controls. The `md-site-engine`  module comes with two built-in menu:
 
 ### bootstrap-navbar
 
-This control provides a Bootstrap style navigation bar like on this page, except
-of the brand. The requirements of the control are the same as of []Bootstrap]:
+This control provides a [Bootstrap] style navigation bar like on this page, except
+of the brand. The requirements of the control are the same as of Bootstrap:
 `bootstrap.css`, `bootstrap.js` and `jquery.js`. The language selector appears
 when the application supports more languages. The search field is also optional,
 for details see the [Content search] page. Complete examples can be found in the
@@ -83,19 +83,19 @@ side-menu-depth:    2
 ```
 
 `side-menu-root` defines the element of the menu tree which child items will
-make up the menu of - so it has to be node. `side-menu-header` is the locale key
-of an optional title for the side menu. If the locale is not found, the value
-will be the title. `side-menu-top` indicates that the root menu will be added as
-the first item to the side menu. The value is the locale key of the text of the
-menu item. If the locale is not found, the value will be the menu text.
-`side-menu-depth` gives the number of the levels in the menu tree used to
-generate the side menu.
+make up the menu of - so it has to be a node. `side-menu-header` is the locale
+key of an optional title for the side menu. If the locale is not found, the
+value will be the title. `side-menu-top` indicates that the root menu will be
+added as the first item to the side menu. The value is the locale key of the
+text of the menu item. If the locale is not found, the value will be the menu
+text. `side-menu-depth` gives the number of the levels in the menu tree used
+to generate the side menu.
 
 By definition the menu nodes are defined by subdirectories, meanwhile the side
 menu apparently has nodes that are items the same time. To achieve this, the
 site uses the trick, that it has a content file and a directory with the same
-name (the latter obviously without the the extension), and the directory is
-marked hidden in the metadata. This trick hides the subdirectory in the
-navigation bar as well.
+name (the latter obviously without the extension), and the directory is marked
+hidden in the metadata. This trick hides the subdirectory in the navigation bar
+as well.
 
 For an example see the source of this documentation site.

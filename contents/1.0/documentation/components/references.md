@@ -27,7 +27,7 @@ Reference files can contain reference-style links. A reference file has
 __.txt__ extension, and the default name is `references.txt`. The name of
 the reference file can be set in the [configuration]. The reference files
 belong to the components. One reference file can be in the root of the
-components, this is the default one; and another reference file can be in
+`/components`, this is the default one; and another reference file can be in
 the root of all language directories. Before rendering a page, the default
 reference file and the language specific one are attached to the content
 file. The reference files are the appropriate places for site wide links.

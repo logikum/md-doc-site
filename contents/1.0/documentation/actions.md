@@ -26,12 +26,12 @@ side-menu-depth:    2
 Sometimes there is a need to display some content based on data provided by the
 user. Such a simple process usually consists of three steps:
 
-1. A form collecting user input (content).
-2. Processing the data sent by the user (action).
-3. Showing a content depending on the result of the previous step (content).
+1. A form collecting user input (launcher content).
+2. Processing the data sent by the user (action function).
+3. Showing a content depending on the result of the previous step (result content).
 
-The first and last steps can provided on content pages, however, the processing
-the input data requires a JavaScript function called action. The next excerpt
+The first and last steps are provided by content pages, however, the processing
+of the input data requires a JavaScript function called action. The next excerpt
 shows a very simple form that has a single text input field and a submit button.
 Note the action and method properties of the form!
 
@@ -40,15 +40,15 @@ Note the action and method properties of the form!
   <div class="form-group">
     <label>Task name:</label>
     <input type="text" class="form-control" name="task"
-           maxlength="20" value="{{ .task }}">
+           maxlength="20" value="{{ob}}{ .task }}">
   </div>
   <button type="submit" class="btn btn-primary">Check it!</button>
-  <span class="error">{{ .error }}</span>
+  <span class="error">{{ob}}{ .error }}</span>
 </form>
 ```
 
-Let suppose the data of the form will be processed by an action in the
-'/actions/task.js' file. We have to associate the action to the form. This is
+Let suppose the data of the form will be processed by an action located in the
+__/actions/task.js__ file. The action has to be bound to the form. This is
 done in the server start up program (`server.js`) using an actions object:
 
 ```javascript
@@ -99,7 +99,7 @@ function action( req, ctx, callback ) {
   // Process data.
   if (task.length > 5) {
     // Pass result data.
-    req.ctx.data.result = task.length;
+    ctx.data.result = task.length;
     // Display result.
     callback( ctx.getPathById( '/tasks/task-result' ) );
   }
@@ -114,12 +114,20 @@ function action( req, ctx, callback ) {
 module.exports = action;
 ```
 
-There is nothing special on the result content, it is an ordinary content file.
-Data are passed through the `ctx.dara` object.
+Actions land on ordinary content files, and data are passed through the
+`ctx.data` object. The passed data are available on the contents and segments
+by a context token, where the token name is the name of a property on the
+data object, and it is preceded by a dot: `{{ob}}{ .property-name }}`. For
+example using the previous sample action:
 
-> Use the `req.ctx.data` object to pass data to the result content when the paths
-of the form and the result files are different, because in that case the context
-object will be recreated to match to the new content file!
+```html
+<p>
+  <label>Task name:</label> <span class="success">{{ob}}{ .task }} characters</span>
+</p>
+<p>
+  <label>Length:</label> <span class="success">{{ob}}{ .result }} characters</span>
+</p>
+```
 
 ### Built-in actions
 
@@ -134,5 +142,5 @@ URL | Description | See
 /r&d | It can be called in development mode. | [Development support]
 <br/>
 
-The URLs of all built-in actions can be set in the paths section of the
+The URLs of all built-in actions can be set in the `paths` section of the
 [configuration].

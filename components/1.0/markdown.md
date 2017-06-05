@@ -1,5 +1,5 @@
 For complete description, see
-[John Gruber's original specification](http://daringfireball.net/projects/markdown/)
+[John Gruber's original specification](https://daringfireball.net/projects/markdown/)
 and the
 [Github-flavored Markdown info page](https://guides.github.com/features/mastering-markdown/).
 

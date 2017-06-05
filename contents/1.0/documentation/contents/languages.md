@@ -24,7 +24,7 @@ side-menu-depth:    2
 # Using languages
 
 The used languages in an application are determined by the direct subdirectories
-of the `contents` directory. The directory names usually are ISO 639-1 codes:
+of the `/contents` directory. The directory names usually are ISO 639-1 codes:
 
 ```text
 /app
@@ -46,9 +46,9 @@ To include language variants the directory names can follow the IETF BCP 47:
         /zh-Hans
 ```
 
-> The directory structure of the `components` has to mirror the one of the `contents`!
+> The directory structure of the `/components` has to mirror the one of the `/contents`!
 
-Different type of sites can be built depending on the contents of the language
+Different types of site can be built depending on the contents of the language
 directories:
 
 ### Multiple language site
@@ -97,7 +97,7 @@ page in the new language.
 
 ### Multiple contents in the same language
 
-It is not mandatory that directory names identify languages or language
+It is not mandatory that the directory names identify languages or language
 directories contain files in different languages. For example this documentation
 site has the following base structure:
 

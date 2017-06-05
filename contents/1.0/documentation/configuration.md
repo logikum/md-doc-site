@@ -23,21 +23,21 @@ side-menu-depth:    2
 
 # Configuration options
 
-At start up md-site-engine requires a JSON object that holds options. A
-typical start up can look like that:
+At start up the `md-site-engine` requires a JSON object that holds options.
+A typical start up can look like that:
 
-```
+```javascript
 var engine = require( 'md-site-engine' );
 
 // Determine run mode.
 var mode = process.env.PORT || 'development';
 
-// Get configuration.
+// Get the configuration.
 var configPath = 'config/' + mode + '.json';
 var config = engine.getConfiguration( configPath );
 
-// Set up content manager.
-var contents = engine.getContents( config );
+// Set up the content manager.
+engine.getContents( config );
 ```
 
 The configuration object has the following properties:
@@ -49,7 +49,7 @@ The configuration object has the following properties:
 
 Type: `string` Default value: `'en'`
 
-The first request of the user uses the default locale.
+The first request of an user uses the default locale.
 
 #### contents
 
@@ -215,8 +215,8 @@ This is the native name of the language `code`. An example:
 
 ### Default route paths
 
-The module uses some predefined route paths to implement some function.
-The configuration object provides a default path object to overwrite these paths
+The module uses some predefined route paths to implement some action. The
+configuration object provides a default paths object to overwrite these paths
 if necessary.
 
 #### paths.notFound
@@ -254,8 +254,8 @@ engine. Tha path is available in development environment only.
 ### Default design paths of developer pages
 
 The development helper pages require some predefined external resources.
-The path object of the configuration object makes possible to overwrite these
-paths if necessary.
+The develop object of the configuration object makes possible to overwrite
+these paths if necessary.
 
 #### develop.cssBootstrap
 

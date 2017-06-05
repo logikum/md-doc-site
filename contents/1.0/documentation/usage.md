@@ -76,7 +76,7 @@ Now browse to the application at [localhost:3000](http://localhost:3000).
 
 The demo application for `md-site-engine` shows the life and works of William
 Shakespeare in English and Hungarian. The site is online at
-[md-web.logikum.hu](http://md-web.logikum.hu "|").
+[md-web.logikum.hu](https://md-web.logikum.hu "|").
 Its source is available at
 [github.com/logikum/md-web-site](https://github.com/logikum/md-web-site "|").
 
