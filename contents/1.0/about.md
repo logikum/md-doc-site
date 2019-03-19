@@ -19,7 +19,7 @@ searchable:     true
 # About md-site-engine
 
 <div class="text-center">
-![About this site](/images/mdse.png)
+  <img src="/images/mdse.png" title="md-site-engine">
 </div>
 
 <p>&nbsp;</p>

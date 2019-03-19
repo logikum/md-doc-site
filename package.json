@@ -12,16 +12,16 @@
   "author": "Mármarosi József <marmarosi@logikum.hu>",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.17",
-    "compression": "^1.6",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
     "connect-redis": "^3.3",
-    "express": "^4.15",
-    "express-session": "^1.11",
-    "helmet": "^3.6",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "helmet": "^3.16.0",
     "highlight.js": "^9.11",
-    "md-site-engine": "^0.7",
-    "serve-favicon": "^2.3.0",
-    "serve-static": "^1.12"
+    "md-site-engine": "^1.0.4",
+    "serve-favicon": "^2.5.0",
+    "serve-static": "^1.13.2"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,6 @@
   },
   "bugs": "https://github.com/logikum/md-doc-site/issues",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6.0.0"
   }
 }
