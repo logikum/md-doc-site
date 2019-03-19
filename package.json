@@ -1,6 +1,6 @@
 {
   "name": "md-doc-site",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "description": "Documentation site for md-site-engine module.",
   "keywords": [
     "md-site-engine",
@@ -30,5 +30,6 @@
   "bugs": "https://github.com/logikum/md-doc-site/issues",
   "engines": {
     "node": ">=6.0.0"
-  }
+  },
+  "homepage": "https://md-doc.logikum.hu"
 }
