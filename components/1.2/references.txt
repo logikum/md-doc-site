@@ -1,0 +1,39 @@
+[~1]: /documentation
+[Introduction]: ~1
+[Content files]: ~1/contents
+[Markdown syntax]: ~1/contents/markdown
+[Content metadata]: ~1/contents/metadata
+[Using languages]: ~1/contents/languages
+[Menu system]: ~1/contents/menus
+[Custom renderer]: ~1/contents/renderer
+[Components]: ~1/components
+[Document files]: ~1/components/documents
+[Layout files]: ~1/components/layouts
+[Segment files]: ~1/components/segments
+[Reference files]: ~1/components/references
+[Locale files]: ~1/components/locales
+[Controls]: ~1/controls
+[Context object]: ~1/controls/context
+[Predefined controls]: ~1/controls/predefined
+[Actions]: ~1/controls/actions
+[Content search]: ~1/search
+[Application structure]: ~1/structure
+[Application configuration]: ~1/configuration
+[Usage sample]: ~1/usage
+[Development support]: ~1/development
+[API]: ~1/api
+
+[configuration]: ~1/configuration
+
+[~2]: /markdown
+[Headers]: ~2/headers
+[Emphasis]: ~2/emphasis
+[Lists]: ~2/lists
+[Links]: ~2/links
+[Images]: ~2/images
+[Code and syntax highlighting]: ~2/highlight
+[Tables]: ~2/tables
+[Blockquotes]: ~2/blockquotes
+[Inline HTML]: ~2/html
+[Horizontal rule]: ~2/rule
+[Line Breaks]: ~2/breaks
