@@ -1,7 +1,7 @@
 {
   "name": "md-doc-site",
   "version": "1.2.0",
-  "description": "Documentation site for md-site-engine module.",
+  "description": "Documentation site for md-site-engine package.",
   "keywords": [
     "md-site-engine",
     "markdown",
