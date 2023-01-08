@@ -229,3 +229,13 @@ mark {
     border-bottom-left-radius: 0;
     border-left: 0;
 }
+pre code {
+    background-color: #000;
+    color: #f9f9f9;
+    display: block;
+}
+pre code span.hljs-comment,
+pre code span.hljs-meta,
+pre code span.hljs-meta-keyword {
+    color: #999999;
+}
